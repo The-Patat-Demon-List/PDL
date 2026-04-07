@@ -1,0 +1,18 @@
+{
+    "id": 68950992,
+    "name": "Little Thingy",
+    "author": "danerdogger",
+    "creators": [],
+    "verifier": "danerdogger",
+    "verification": "https://www.youtube.com/watch?v=nwt6WjPwdb0",
+    "percentToQualify": "78",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://www.youtube.com/watch?v=nwt6WjPwdb0",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
