@@ -1,0 +1,18 @@
+{
+    "id": 123926083,
+    "name": "Himari",
+    "author": "ArcerusPH",
+    "creators": [],
+    "verifier": "ArcerusPH",
+    "verification": "https://youtu.be/4MvcpXJxvHE?si=Uc3w9kl92l-yAsSE",
+    "percentToQualify": "71",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/4MvcpXJxvHE?si=Uc3w9kl92l-yAsSE",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

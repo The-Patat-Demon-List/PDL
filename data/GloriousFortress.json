@@ -1,0 +1,18 @@
+{
+    "id": 95436164,
+    "name": "Glorious Fortress",
+    "author": "JamAttack",
+    "creators": [],
+    "verifier": "JamAttack",
+    "verification": "https://youtu.be/Zyop5R8QIHw?si=36X6M5psvYQK1ro7",
+    "percentToQualify": "73",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/Zyop5R8QIHw?si=36X6M5psvYQK1ro7",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
