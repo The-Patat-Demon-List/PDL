@@ -1,0 +1,18 @@
+{
+    "id": 57436521,
+    "name": "B",
+    "author": "Motleyorc",
+    "creators": [],
+    "verifier": "Motleyorc",
+    "verification": "https://www.youtube.com/watch?v=ohKPqGxotao",
+    "percentToQualify": "73",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://www.youtube.com/watch?v=ohKPqGxotao",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

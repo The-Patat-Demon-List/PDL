@@ -1,0 +1,18 @@
+{
+    "id": 118509879,
+    "name": "Skeletal Shenanigans",
+    "author": "YoReid",
+    "creators": [],
+    "verifier": "YoReid",
+    "verification": "https://youtu.be/mgzTHUKATqo?si=CHoFHIdoHgzeFVnl",
+    "percentToQualify": "70",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/mgzTHUKATqo?si=CHoFHIdoHgzeFVnl",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

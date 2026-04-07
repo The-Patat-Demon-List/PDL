@@ -1,0 +1,18 @@
+{
+    "id": 20,
+    "name": "Deadlocked",
+    "author": "Robtop",
+    "creators": [],
+    "verifier": "Robtop",
+    "verification": "https://youtu.be/reZj2Xbt05Q?si=Yt4TQvm0KoJQr855",
+    "percentToQualify": "72",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/reZj2Xbt05Q?si=Yt4TQvm0KoJQr855",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
