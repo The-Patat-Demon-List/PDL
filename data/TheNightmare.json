@@ -1,0 +1,18 @@
+{
+    "id": 13519,
+    "name": "The Nightmare",
+    "author": "Jax",
+    "creators": [],
+    "verifier": "Jax",
+    "verification": "https://youtu.be/Xl4stg-bsxk?si=oqrHgm4tK16EwmQi",
+    "percentToQualify": "65",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/Xl4stg-bsxk?si=oqrHgm4tK16EwmQi",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

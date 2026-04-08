@@ -1,0 +1,18 @@
+{
+    "id": 5904109,
+    "name": "Platinum Adventure",
+    "author": "Jerry4",
+    "creators": [],
+    "verifier": "Jerry4",
+    "verification": "https://youtu.be/DWGGjNnU5CA?si=U-6-QwQFOvbFDMkB",
+    "percentToQualify": "74",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/DWGGjNnU5CA?si=U-6-QwQFOvbFDMkB",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

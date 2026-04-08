@@ -1,0 +1,18 @@
+{
+    "id": 116243793,
+    "name": "Ink River",
+    "author": "Jax",
+    "creators": [],
+    "verifier": "Jax",
+    "verification": "https://youtu.be/2MWSyvKGE_o?si=-LRbsYSXRPuzxW9p",
+    "percentToQualify": "65",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/2MWSyvKGE_o?si=-LRbsYSXRPuzxW9p",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
