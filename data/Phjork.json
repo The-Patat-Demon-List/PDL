@@ -1,0 +1,18 @@
+{
+    "id": 56587109,
+    "name": "Phjork",
+    "author": "cerufiffy",
+    "creators": [],
+    "verifier": "cerufiffy",
+    "verification": "https://youtu.be/WocTNHlbf6g?si=ZX1vExhOjuFhpgIP",
+    "percentToQualify": "54",
+    "password": "Free To Copy",
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/WocTNHlbf6g?si=ZX1vExhOjuFhpgIP",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

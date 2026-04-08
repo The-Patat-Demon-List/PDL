@@ -1,0 +1,18 @@
+{
+    "id": 92754566,
+    "name": "Unite",
+    "author": "SomeRandomCow",
+    "creators": [],
+    "verifier": "SomeRandomCow",
+    "verification": "https://youtu.be/FFGnfLTzB8w?si=kztIqUSO29W1KuJD",
+    "percentToQualify": "55",
+    "password": "Free To Copy",
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/FFGnfLTzB8w?si=kztIqUSO29W1KuJD",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
