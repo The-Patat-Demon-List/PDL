@@ -1,0 +1,18 @@
+{
+    "id": 15,
+    "name": "Theory Of Everything 2",
+    "author": "Robtop",
+    "creators": [],
+    "verifier": "Robtop",
+    "verification": "https://youtu.be/gok5ShDXxg4?si=m_p72-O1u64h2Eik",
+    "percentToQualify": "65",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/gok5ShDXxg4?si=m_p72-O1u64h2Eik",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

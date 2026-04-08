@@ -1,0 +1,18 @@
+{
+    "id": 111558838,
+    "name": "Sea Hunter",
+    "author": "DaVyZ",
+    "creators": [],
+    "verifier": "DaVyZ",
+    "verification": "https://youtu.be/tkNXDNiVEsg?si=aRLnFa4662Npy87Q",
+    "percentToQualify": "52",
+    "password": "Free To Copy",
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/tkNXDNiVEsg?si=aRLnFa4662Npy87Q",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

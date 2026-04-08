@@ -1,0 +1,18 @@
+{
+    "id": 87257787,
+    "name": "V01D",
+    "author": "FunkYFries",
+    "creators": [],
+    "verifier": "FunkYFries",
+    "verification": "https://youtu.be/UmUHIeZHEyM?si=l99To-gZ58DbD2CH",
+    "percentToQualify": "75",
+    "password": "Free To Copy",
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/UmUHIeZHEyM?si=l99To-gZ58DbD2CH",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
