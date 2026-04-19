@@ -1,0 +1,18 @@
+{
+    "id": 91055359,
+    "name": "Sunken Polis",
+    "author": "Starbom",
+    "creators": [],
+    "verifier": "Starbom",
+    "verification": "https://youtu.be/ofm81BOGdzo?si=fVZ2LREl1BMRCNHI",
+    "percentToQualify": "72",
+    "password": "Free To Copy",
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/ofm81BOGdzo?si=fVZ2LREl1BMRCNHI",
+            "percent": 100,
+            "hz": 240
+       }
+    ]
+}
