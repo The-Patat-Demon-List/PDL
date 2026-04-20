@@ -107,10 +107,13 @@ export default {
                     </p>
                     <p>
                         If you are submitting for an extreme or insane demon clicks & audio is required
+                        
                     <p>
                         If you are submitting for a hard demon a video is required
+
                     <p>
                         If you are submitting for an easy or medium demon a screenshot of the endscreen is required
+
                     </p>
                     <p>
                          For an extreme or insane demon the recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
