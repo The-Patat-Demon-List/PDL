@@ -1,0 +1,24 @@
+{
+"id": 92417063,
+    "name": "PRINTER NOISES",
+    "author": "JoacoWoop",
+    "creators": [],
+    "verifier": "JoacoWoop",
+    "verification": "https://www.youtube.com/watch?v=Qx5oCtZTafY&vl=en",
+    "percentToQualify": "73",
+    "password": "Free To Copy",
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://www.youtube.com/watch?v=Qx5oCtZTafY&vl=en",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "DiamondNovabeast",
+            "link": "https://www.youtube.com/watch?v=Qx5oCtZTafY&vl=en",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
