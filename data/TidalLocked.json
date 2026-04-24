@@ -1,0 +1,24 @@
+{
+    "id": 136967652,
+    "name": "Tidal Locked",
+    "author": "trphqcdat",
+    "creators": [],
+    "verifier": "trphqcdat",
+    "verification": "https://www.youtube.com/watch?v=4YsW1Btl1I8",
+    "percentToQualify": "65",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Patat",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "DiamondNovabeast",
+            "link": "https://youtu.be/8CpNEE_1PhI",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
