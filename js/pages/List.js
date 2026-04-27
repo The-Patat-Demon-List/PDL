@@ -79,12 +79,14 @@ export default {
                             <td class="mobile">
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
-                            <td class="Enjoyment">
-                                <p>10/10</p>
+                            <td class="enjoyment">
+                                <p>{{ record.enjoyment }}/10</p>
                             </td>
+                            <!--
                             <td class="hz">
                                 <p>{{ record.hz }}Hz</p>
                             </td>
+                            -->
                         </tr>
                     </table>
 
