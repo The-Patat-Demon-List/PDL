@@ -57,7 +57,7 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Average Enjoyment</div>
-                            <!-- <p>{{ level.password || 'Free to Copy' }}</p> -->
+                            <!-- <p>{{ avg enjoyments will be calculted here }}</p> -->
                             <p>Coming Soon</p>
                         </li>
                     </ul>
