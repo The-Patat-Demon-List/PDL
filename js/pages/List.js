@@ -156,17 +156,23 @@ export default {
             );
         },
         averageEnjoyment() {
-            if (!this.level || !this.level.records) return null;
+    if (!this.level || !this.level.records) return null;
 
-                const valid = this.level.records
-                    .map(r => r.enjoyment)
-                    .filter(e => e != null); // ignore null/undefined
+    const values = this.level.records
+        .map(r => {
+            // Use level enjoyment for Patat
+            if (r.user === 'Patat') {
+                return this.level.enjoyment;
+            }
+            return r.enjoyment;
+        })
+        .filter(e => e != null);
 
-            if (!valid.length) return null;
+    if (!values.length) return null;
 
-            const avg = valid.reduce((a, b) => a + b, 0) / valid.length;
+    const avg = values.reduce((a, b) => a + b, 0) / values.length;
 
-            return avg.toFixed(2); // 2 decimal places
+    return avg.toFixed(2);
 }
     },
     async mounted() {
