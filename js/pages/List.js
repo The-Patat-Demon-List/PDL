@@ -41,6 +41,7 @@ export default {
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points</div>
@@ -57,13 +58,16 @@ export default {
                         <li>
                             <div class="type-title-sm">Average Enjoyment</div>
                             <!-- <p>{{ level.password || 'Free to Copy' }}</p> -->
-                            <p> Coming Soon!</p>
+                            <p>Coming Soon</p>
                         </li>
                     </ul>
+
                     <h2>Records</h2>
                     <p v-if="selected + 1 <= 50"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
                     <p v-else-if="selected +1 <= 100"><strong>100%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
+
+                    <!--Table of records for levels-->
                     <table class="records">
                         <tr v-for="record in level.records" class="record">
                             <td class="percent">
@@ -75,11 +79,15 @@ export default {
                             <td class="mobile">
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
+                            <td class="Enjoyment">
+                                <p>10/10</p>
+                            </td>
                             <td class="hz">
                                 <p>{{ record.hz }}Hz</p>
                             </td>
                         </tr>
                     </table>
+
                 </div>
                 <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
                     <p>(ノಠ益ಠ)ノ彡┻━┻</p>
