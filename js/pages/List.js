@@ -80,7 +80,7 @@ export default {
                                 <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store.dark ? '-dark' : ''}.svg\`" alt="Mobile">
                             </td>
                             <td class="enjoyment">
-                                <p>{{ record.enjoyment != null ? record.enjoyment + '/10' : ''}}</p>
+                                <p>{{record.user != 'Patat' (record.enjoyment != null ? record.enjoyment + '/10' : '') : level.enjoyment}}</p>
                             </td>
                             <!--
                             <td class="hz">
