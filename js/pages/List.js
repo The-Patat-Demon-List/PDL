@@ -57,8 +57,8 @@ export default {
                         </li>
                         <li>
                             <div class="type-title-sm">Average Enjoyment</div>
-                            <!-- <p>{{ avg enjoyments will be calculted here }}</p> -->
-                            <p>Coming Soon</p>
+                            <p>{{ averageEnjoyment != null ? averageEnjoyment + '/10' : 'N/A' }}</p>
+                            <!-- <p>Coming Soon</p> -->
                         </li>
                     </ul>
 
@@ -155,6 +155,19 @@ export default {
                     : this.level.verification
             );
         },
+        averageEnjoyment() {
+            if (!this.level || !this.level.records) return null;
+
+                const valid = this.level.records
+                    .map(r => r.enjoyment)
+                    .filter(e => e != null); // ignore null/undefined
+
+            if (!valid.length) return null;
+
+            const avg = valid.reduce((a, b) => a + b, 0) / valid.length;
+
+            return avg.toFixed(2); // 2 decimal places
+}
     },
     async mounted() {
         // Hide loading spinner
