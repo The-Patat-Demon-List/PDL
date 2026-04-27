@@ -100,15 +100,16 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        - Easy/Medium demons: Screenshot of the endscreen is required (videos are also accepted, but not preferred)
-                        - Hard demons: Video is required (clicks optional)
-                        - Insane/Extreme demons: Video WITH CLICKS is required
-                        
-                        - Videos MUST SHOW a previous attempt and entire death animation before the completion, unless the completion is on the first attempt.
-                            - Videos must also show the endscreen.
-                            - Cheat indicators on the endscreen are REQUIRED unless the level is played on the vanilla game without mods
-                        - Only the level that is listed on the site is accepted for records - please check the level ID before submitting
-                        - Do not use secret routes that make the level significantly easier
+                        - Easy/Medium demons: Screenshot of the endscreen is required (videos are also accepted, but not preferred)\n
+                        - Hard demons: Video is required (clicks optional)\n
+                        - Insane/Extreme demons: Video WITH CLICKS is required\n\n
+
+                        - Videos MUST SHOW a previous attempt and entire death animation before the completion, unless the completion is on the first attempt.\n
+                        - Videos must also show the endscreen.\n
+                        - Cheat indicators on the endscreen are REQUIRED unless the level is played on the vanilla game without mods\n\n
+
+                        - Only the level that is listed on the site is accepted for records - please check the level ID before submitting\n
+                        - Do not use secret routes that make the level significantly easier\n
                         - Submissions for levels on the Legacy list will not be considered
                     </p>
                 </div>
