@@ -1,0 +1,18 @@
+{
+    "id": 90475473,
+    "name": "Fratura",
+    "author": "joojmiguel",
+    "creators": [],
+    "verifier": "joojmiguel",
+    "verification": "https://youtu.be/cweC4P6B0g0?si=D7iWsIYR_sy7FewJ",
+    "percentToQualify": "70",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/cweC4P6B0g0?si=D7iWsIYR_sy7FewJ",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
