@@ -1,0 +1,18 @@
+{
+    "id": 102063008,
+    "name": "DeepDive",
+    "author": "VEALT",
+    "creators": [],
+    "verifier": "VEALT",
+    "verification": "https://youtu.be/l3pjobAw6ak?si=s0gmTMC0npGJZmjR",
+    "percentToQualify": "70",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/l3pjobAw6ak?si=s0gmTMC0npGJZmjR",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
