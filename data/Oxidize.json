@@ -1,0 +1,18 @@
+{
+    "id": 96978035,
+    "name": "Oxidize",
+    "author": "The Goola",
+    "creators": [],
+    "verifier": "The Goola",
+    "verification": "https://youtu.be/NCkXnxyMXaM?si=4C40UMvBtSyrRAcO",
+    "percentToQualify": "67",
+    "password": "Free To Copy",
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/NCkXnxyMXaM?si=4C40UMvBtSyrRAcO",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
