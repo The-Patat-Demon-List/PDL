@@ -100,32 +100,16 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass and CBF is allowed, up to 240fps)
-                    </p>
-                    <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
-                    </p>
-                    <p>
-                        If you are submitting for an extreme or insane demon clicks & audio is required
-                    <p>
-                        If you are submitting for a hard demon a video is required
-                    <p>
-                        If you are submitting for an easy or medium demon a screenshot of the endscreen is required
-                    </p>
-                    <p>
-                         For an extreme or insane demon the recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt.
-                    </p>
-                    <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
-                    </p>
-                    <p>
-                        Do not use secret routes or bug routes
-                    </p>
-                    <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
-                    </p>
-                    <p>
-                        Once a level falls onto the Legacy List no records will be accepted unless submitted before said level falls off
+                        - Easy/Medium demons: Screenshot of the endscreen is required (videos are also accepted, but not preferred)
+                        - Hard demons: Video is required (clicks optional)
+                        - Insane/Extreme demons: Video WITH CLICKS is required
+                        
+                        - Videos MUST SHOW a previous attempt and entire death animation before the completion, unless the completion is on the first attempt.
+                            - Videos must also show the endscreen.
+                            - Cheat indicators on the endscreen are REQUIRED unless the level is played on the vanilla game without mods
+                        - Only the level that is listed on the site is accepted for records - please check the level ID before submitting
+                        - Do not use secret routes that make the level significantly easier
+                        - Submissions for levels on the Legacy list will not be considered
                     </p>
                 </div>
             </div>
