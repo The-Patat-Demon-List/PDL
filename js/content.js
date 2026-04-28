@@ -103,6 +103,7 @@ export async function fetchLeaderboard() {
                 percent: record.percent,
                 score: score(rank + 1, record.percent, level.percentToQualify),
                 link: record.link,
+                user: record.user,
             });
         });
     });
