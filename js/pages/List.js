@@ -213,10 +213,10 @@ export default {
             if (!currentLevel || typeof currentLevel.difficulty === 'undefined') {
                 return '';
             }
-            const difficultyNames = ["easy", "medium", "hard", "insane", "extreme"];
+            const difficultyNames = ["Demon0", "Demon1", "Demon2", "Demon3", "Demon4"];
             if (difficultyNames[currentLevel.difficulty]) {
                 const name = difficultyNames[currentLevel.difficulty];
-                return `/assets/Demon${name}.png`;
+                return `/assets/${name}.png`;
             }
             return '';
         },
