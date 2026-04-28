@@ -6,7 +6,11 @@
     "verifier": "trphqcdat",
     "verification": "https://www.youtube.com/watch?v=4YsW1Btl1I8",
     "percentToQualify": "65",
-    "enjoyment":null,
+<<<<<<< HEAD
+    "enjoyment":8,
+=======
+    "enjoyment":8,
+>>>>>>> ae4fa50a97054bc8f9934c1781fc01c83445420d
     "records": [
         {
             "user": "Patat",

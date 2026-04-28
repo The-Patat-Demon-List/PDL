@@ -6,7 +6,11 @@
     "verifier": "Serponge",
     "verification": "https://youtu.be/wxMfpaivBfg?si=L5jZpThBVik2Y9EX",
     "percentToQualify": "69",
-    "enjoyment":null,
+<<<<<<< HEAD
+    "enjoyment":0,
+=======
+    "enjoyment":,
+>>>>>>> ae4fa50a97054bc8f9934c1781fc01c83445420d
     "records": [
                 {
             "user": "Patat",
