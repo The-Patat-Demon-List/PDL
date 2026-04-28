@@ -1,0 +1,19 @@
+{
+    "id": 101284044,
+    "name": "Static",
+    "author": "SoDemUp",
+    "creators": [],
+    "verifier": "SoDemUp",
+    "verification": "https://www.youtube.com/watch?v=e4Lyh41G2-o",
+    "percentToQualify": "65",
+    "enjoyment":6,
+    "difficulty":1,
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://www.youtube.com/watch?v=e4Lyh41G2-o",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
