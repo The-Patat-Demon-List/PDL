@@ -214,7 +214,7 @@ export default {
                 return '';
             }
             const difficultyNames = ["Demon0", "Demon1", "Demon2", "Demon3", "Demon4"];
-            if (difficultyNames[currentLevel.difficulty]) {
+            if (difficultyNames[currentLevel.difficulty] + 1) {
                 const name = difficultyNames[currentLevel.difficulty];
                 return `/assets/${name}.png`;
             }
