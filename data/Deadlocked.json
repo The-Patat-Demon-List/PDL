@@ -8,33 +8,33 @@
     "percentToQualify": "72",
     "enjoyment":10,
     "records": [
-                {
+        {
             "user": "Patat",
             "link": "https://youtu.be/reZj2Xbt05Q?si=Yt4TQvm0KoJQr855",
             "percent": 100,
             "hz": 240
         },
-                               {
+        {
             "user": "Deretu :3",
             "link": "https://cdn.discordapp.com/attachments/1442764150571794462/1491410540227072101/20260408141145_1.jpg?ex=69d8408d&is=69d6ef0d&hm=08659666641008391f5d6d32763f91653b130615b1318169de86104d48b5dd76&",
             "percent": 100,
             "hz": 240
         },
-                                                        {
+        {
             "user": "DiamondNovabeast",
             "link": "https://drive.google.com/file/d/1wnq29Q9XWRjhTxk0RlFc5YN3D7gRiGPs/view",
             "percent": 100,
             "enjoyment":8,
             "hz": 240
         },
-                                                                                                {
+        {
             "user": "Cross",
             "link": "https://drive.google.com/file/d/1b6ESNbogBUxEeqxszAE27ryPWPWI-9vX/view?usp=sharing",
             "percent": 100,
             "enjoyment":7,
             "hz": 240
         },
-                                                                                                {
+        {
             "user": "Golden",
             "link": "https://medal.tv/games/geometry-dash/clips/mytO23j1jmbRkcvYu?invite=cr-MSxBSkwsNDk5MjU2NTAx&v=112",
             "percent": 100,
@@ -46,17 +46,24 @@
             "percent": 100,
             "hz": 240
         },
-                                        {
+        {
             "user": "Aciocio",
             "link": "https://www.youtube.com/watch?v=G2_pwX7TTfU",
             "percent": 100,
             "enjoyment":7,
             "hz": 240
         },
-                        {
+        {
             "user": "aitra",
             "link": "https://medal.tv/games/geometry-dash/clips/mBgxkFawHwUIHG7YD?invite=cr-MSxDSGcsNjE3MzU0ODQ2&v=108",
             "enjoyment":9,
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "RylanglukePlays",
+            "link": "https://www.youtube.com/watch?v=VSJIcSbBq00",
+            "enjoyment":7,
             "percent": 100,
             "hz": 240
         }
