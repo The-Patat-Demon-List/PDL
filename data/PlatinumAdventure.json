@@ -40,10 +40,17 @@
             "percent": 100,
             "hz": 240
         },
-                {
+        {
             "user": "aitra",
             "link": "https://medal.tv/games/geometry-dash/clips/mBgj7AgQClFQiXTv8?invite=cr-MSxidHYsNjE3MzU0ODQ2&v=94",
             "enjoyment":2,
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "MewtrixGD",
+            "link": "https://cdn.discordapp.com/attachments/1473770013126037626/1498722197748060240/Screenshot_2026-04-28_at_11.26.21_AM.png?ex=69f23150&is=69f0dfd0&hm=954a7a3f0c0ae430ac5ddd02ebb4d1256b76f5ad2b282625ea50445a20e74f89&",
+            "enjoyment":10,
             "percent": 100,
             "hz": 240
         }
