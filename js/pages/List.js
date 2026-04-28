@@ -216,7 +216,7 @@ export default {
             const difficultyNames = ["easy", "medium", "hard", "insane", "extreme"];
             if (difficultyNames[currentLevel.difficulty]) {
                 const name = difficultyNames[currentLevel.difficulty];
-                return '/assets/Demon${name}.png';
+                return `/assets/Demon${name}.png`;
             }
             return '';
         },
