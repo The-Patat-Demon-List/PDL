@@ -14,6 +14,13 @@
             "link": "https://www.youtube.com/watch?v=e4Lyh41G2-o",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Cross",
+            "link": "https://drive.google.com/file/d/15JrWssIRrQsjoCrW9gJe91udvl8rqzrJ/view?usp=sharing",
+            "percent": 100,
+            "enjoyment":7,
+            "hz": 240
         }
     ]
 }
