@@ -70,7 +70,8 @@ export default {
                                 </td>
 
                                 <td class="enjoyment">
-                                <p>{{ score.enjoyment != null ? score.enjoyment + '/10' : '' }}</p>
+                                <p v-if="score.user != 'Patat'">{{ score.enjoyment != null ? score.enjoyment + '/10' : '' }}</p>
+                                <p v-else>{{ score.levelEnjoyment != null ? score.levelEnjoyment + '/10' : '' }}</p>
                                 </td>
 
                                 <td class="score">
