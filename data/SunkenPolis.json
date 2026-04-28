@@ -6,7 +6,7 @@
     "verifier": "Starbom",
     "verification": "https://youtu.be/ofm81BOGdzo?si=fVZ2LREl1BMRCNHI",
     "percentToQualify": "72",
-    "enjoyment":7,
+    "enjoyment":5,
     "records": [
        {
             "user": "Patat",
@@ -24,6 +24,7 @@
             "user": "Cross",
             "link": "https://drive.google.com/file/d/13Y0BE05LpsqyiVvWR-Whx8Kpoju8QOzp/view?usp=sharing",
             "percent": 100,
+            "enjoyment":5,
             "hz": 240
        },
        {
