@@ -1,0 +1,423 @@
+import { store } from '../main.js';
+import { embed, getFontColour } from '../util.js';
+import { score } from '../score.js';
+import { fetchEditors, fetchList, fetchAuth } from '../content.js';
+
+import Spinner from '../components/Spinner.js';
+import LevelAuthors from '../components/List/LevelAuthors.js';
+
+const apiBase = 'https://tslbackendexpress.onrender.com/api';
+
+const roleIconMap = {
+	owner: 'crown',
+	admin: 'user-gear',
+	seniormod: 'user-shield',
+	mod: 'user-lock',
+    trial: 'user-check',
+	dev: 'code'
+};
+
+export default {
+	components: { Spinner, LevelAuthors },
+	template: `
+        <main v-if="loading" class="surface">
+            <Spinner></Spinner>
+        </main>
+        <main v-else class="page-list">
+            <div class="list-container surface">
+                <div class="search-wrapper">
+                    <input type="text" v-model="searchQuery" placeholder="Search by level name..." class="search-input type-body-lg">
+                </div>
+                <table class="list" v-if="list && list.length">
+                    <tr v-for="item in filteredListDisplay" :key="item.originalIndex">
+                        <td class="rank">
+                            <p class="type-label-lg">#{{ item.originalIndex + 1 }}</p>
+                        </td>
+                        <td class="level" :class="{ 'active': selected === item.originalIndex, 'error': !item.level }">
+                            <button @click="selected = item.originalIndex">
+                                <span class="type-label-lg">{{ item.level?.name || \`Error (\${item.err}.json)\` }}</span>
+                            </button>
+                        </td>
+                    </tr>
+                </table>
+                <p v-if="list && list.length > 0 && filteredListDisplay && filteredListDisplay.length === 0" class="no-results type-body-lg">
+                    No levels found matching your search.
+                </p>
+            </div>
+            <div class="level-container surface">
+                <div class="level" v-if="level">
+                    <h1 style="display:flex; align-items:center; gap:8px;">
+                        <div style="display:flex; align-items:center; gap:8px; flex:1;">
+                            <img :src="getDemonRating()" class="difficultyface" v-if="level.rating"/>
+                            <span style="font-weight:600; font-size:1.1em;">{{ level.name }}</span>
+                        </div>
+                        <div style="display:flex; gap:8px; align-items:center;">
+                            <button v-if="auth" class="btn small" @click="editLevel">Edit</button>
+                            <button v-if="auth" class="btn danger small" @click="confirmDelete = true" title="Delete level" style="display:flex;align-items:center;gap:6px;">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"></path><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"></path></svg>
+                                Delete
+                            </button>
+                        </div>
+                    </h1>
+
+                    <div v-if="confirmDelete" class="confirm-delete surface" style="padding:12px; margin:10px 0; border-left:4px solid rgba(200,40,40,0.9); background: rgba(255,245,245,0.6); display:flex; flex-direction:column; gap:8px;">
+                        <div style="display:flex; align-items:center; gap:10px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color:#c62828"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
+                            <div>
+                                <div style="font-weight:700">Are you sure you want to delete this level?</div>
+                                <div class="type-body-sm">This will permanently remove the level file and remove it from the list. This action cannot be undone.</div>
+                            </div>
+                        </div>
+                        <div style="display:flex; gap:8px;">
+                            <button class="btn danger" @click="deleteLevel" :disabled="processing">Yes, delete</button>
+                            <button class="btn ghost" @click="confirmDelete = false" :disabled="processing">Cancel</button>
+                        </div>
+                    </div>
+
+                    <div v-if="editingLevel" class="edit-form surface" style="padding:12px; margin:10px 0;">
+                        <label class="type-body-sm">Name</label>
+                        <input type="text" v-model="editForm.name" class="type-body-lg"><br>
+                        <label class="type-body-sm">ID</label>
+                        <input type="text" v-model="editForm.id" class="type-body-lg"><br>
+                        <label class="type-body-sm">LDM ID</label>
+                        <input type="text" v-model="editForm.ldm_id" class="type-body-lg"><br>
+                        <label class="type-body-sm">Verifier</label>
+                        <input type="text" v-model="editForm.verifier" class="type-body-lg"><br>
+                        <label class="type-body-sm">Rating</label>
+                        <input type="number" v-model="editForm.rating" class="type-body-lg"><br>
+                        <label class="type-body-sm">Showcase</label>
+                        <input type="text" v-model="editForm.showcase" class="type-body-lg"><br>
+                        <label class="type-body-sm">Difficulty (0-4)</label>
+                        <input type="number" min="0" max="4" v-model="editForm.difficulty" class="type-body-lg"><br>
+                        <div style="margin-top:8px;">
+                            <button class="btn" @click="saveLevelEdits" :disabled="processing">Save</button>
+                            <button class="btn ghost" @click="cancelEdit" :disabled="processing">Cancel</button>
+                        </div>
+                    </div>
+                    <LevelAuthors :author="level.author" :creators="level.creators" :creators0="level.creators0" :verifier="level.verifier"></LevelAuthors>
+                    <div class="packs" v-if="level && level.packs && level.packs.length > 0">
+                        <div v-for="pack in level.packs || []" class="tag" :style="{background:pack.colour}">
+                            <p :style="{color:getFontColour(pack.colour)}">{{pack.name}}</p>
+                        </div>
+                    </div>
+                    <div v-if="level.showcase" class="tabs">
+                        <button class="tab type-label-lg" :class="{selected: !toggledShowcase}" @click="toggledShowcase = false">
+                            <span class="type-label-lg">Verification</span>
+                        </button>
+                        <button class="tab" :class="{selected: toggledShowcase}" @click="toggledShowcase = true">
+                            <span class="type-label-lg">Showcase</span>
+                        </button>
+                    </div>
+                    <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+                    <ul class="stats">
+                        <li>
+                            <div class="type-title-sm">Points</div>
+                            <p>{{ score(level.difficulty) }}</p>
+                        </li>
+                        <li>
+                            <div class="type-title-sm">ID</div>
+                            <p>{{ level.id }}</p>
+                        </li>
+                        <li v-if="level.ldm_id">
+                            <div class="type-title-sm">LDM ID</div>
+                            <p>{{ level.ldm_id }}</p>
+                        </li>
+                    </ul>
+                    <h2>Victors</h2>
+                    <table class="records">
+                        <tr v-for="record in (level && level.records ? level.records : [])" class="record">
+                            <td class="link">
+                                <a :href="record.link" target="_blank" class="type-label-lg">Video</a>
+                            </td>
+                            <td class="user">
+                                <a :href="record.link" target="_blank" class="type-label-lg">{{ record.user }}</a>
+                            </td>
+                            <td class="mobile">
+                                <img v-if="record.mobile" :src="\`/assets/phone-landscape\${store?.dark ? '-dark' : ''}.svg\`" alt="Mobile">
+                            </td>
+                            <td v-if="auth" class="actions">
+                                <button class="btn ghost small" @click.prevent="removeRecord(record)" :disabled="processing" title="Remove record">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6l-1 14a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2L5 6"></path><path d="M10 11v6"></path><path d="M14 11v6"></path><path d="M9 6V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2"></path></svg>
+                                </button>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
+                    <p>(ãƒŽà² ç›Šà² )ãƒŽå½¡â”»â”â”»</p>
+                </div>
+            </div>
+            <div class="meta-container surface">
+                <div class="meta">
+                    <div class="errors" v-show="errors.length > 0">
+                        <p class="error" v-for="error of errors">{{ error }}</p>
+                    </div>
+                    <p class="promote">If you're interested in some harder shitty levels, check out <a style="text-decoration:underline" href="https://tslplus.pages.dev" target="_blank">The Shitty List Plus</a>.</p>
+                    <template v-if="editors">
+                        <h3>List Editors</h3>
+                        <ol class="editors">
+                            <li v-for="editor in editors">
+                                <img :src="\`/assets/\${roleIconMap[editor.role]}\${(store.dark || store.shitty) ? '-dark' : ''}.svg\`" :alt="editor.role">
+                                <a v-if="editor.link" class="type-label-lg link" target="_blank" :href="editor.link">{{ editor.name }}</a>
+                                <p v-else>{{ editor.name }}</p>
+                            </li>
+                        </ol>
+                    </template>
+                    <p>Credits to RobtopGames for the difficulty faces</p>
+                    <h3 style="text-decoration: underline; color: #4185f2;"><a href="https://docs.google.com/document/d/1VEc9-tw4ONnuBRxiuP9NA5q6aJnyZg2-UKyu54VhHIQ/edit?usp=sharing" target="_blank"> Submission Requirements </a></h3>
+                </div>
+            </div>
+        </main>
+    `,
+	data: () => ({
+		list: [],
+		editors: [],
+		loading: true,
+		selected: null,
+        searchQuery: '',
+		errors: [],
+		roleIconMap,
+		store,
+		toggledShowcase: false,
+        auth: false,
+        editingLevel: false,
+        editForm: {},
+        processing: false,
+        confirmDelete: false,
+	}),
+	computed: {
+		level() {
+			if (this.selected === null || !this.list[this.selected] || !this.list[this.selected][0]) {
+                return null;
+            }
+            return this.list[this.selected][0];
+		},
+		video() {
+            if (!this.level) return '';
+			if (!this.level.showcase) {
+				return embed(this.level.verification);
+			}
+
+			return embed(
+				this.toggledShowcase ? this.level.showcase : this.level.verification,
+			);
+		},
+        originalListWithIndex() {
+            return (this.list || []).map(([level, err], index) => ({
+                level,
+                err,
+                originalIndex: index,
+            }));
+        },
+        filteredListDisplay() {
+            if (!this.searchQuery.trim()) {
+                return this.originalListWithIndex;
+            }
+            const searchTerm = this.searchQuery.toLowerCase();
+            return (this.originalListWithIndex || []).filter(item => item.level?.name?.toLowerCase().includes(searchTerm));
+		},
+	},
+	async mounted() {
+		this.list = await fetchList();
+		if (this._isDestroyed) return;
+		
+		this.editors = await fetchEditors();
+		if (this._isDestroyed) return;
+
+        this.auth = await fetchAuth();
+        if (this._isDestroyed) return;
+
+		// Error handling
+		if (!this.list) {
+			this.errors = [
+				'Failed to load list. Retry in a few minutes or notify list staff.',
+			];
+		} else {
+			this.errors.push(
+				...this.list
+					.filter(([_, err]) => err)
+					.map(([_, err]) => {
+						return `Failed to load level. (${err}.json)`;
+					}),
+			);
+			if (!this.editors) {
+				this.errors.push('Failed to load list editors.');
+			}
+		}
+
+		if (this._isDestroyed) return;
+		this.loading = false;
+		
+		// Set initial selection to first level if available
+		if (this.list && this.list.length > 0) {
+			this.selected = 0;
+		}
+        // Watcher will handle initial selection setting after list is loaded
+	},
+    watch: {
+        filteredListDisplay: {
+            handler(newList) {
+                if (newList.length > 0) {
+                    const currentSelectionInNewList = newList.find(item => item.originalIndex === this.selected);
+                    if (!currentSelectionInNewList) {
+                        this.selected = newList[0].originalIndex;
+                    }
+                } else {
+                    this.selected = null;
+                }
+            },
+        }
+        ,
+        'store.isLoggedIn': {
+            handler(val) {
+                // keep component auth state in sync with global store
+                if (!val) {
+                    this.auth = false;
+                    this.editingLevel = false;
+                    this.editForm = {};
+                } else {
+                    // re-check server-side auth when logged in
+                    fetchAuth().then(a => {
+                        this.auth = !!a;
+                    }).catch(() => { this.auth = false; });
+                }
+            },
+            immediate: false,
+        }
+    },
+	methods: {
+		embed,
+		score,
+        getFontColour,
+        getDemonRating(){
+            const currentLevel = this.level;
+            if (!currentLevel || typeof currentLevel.difficulty === 'undefined' || typeof currentLevel.rating === 'undefined') {
+                return '';
+            }
+            const difficultyNames = ["easy", "medium", "hard", "insane", "extreme"];
+            if (difficultyNames[currentLevel.difficulty]) {
+                const name = difficultyNames[currentLevel.difficulty] + currentLevel.rating;
+                return `/assets/demonfaces/${name}.png`;
+            }
+            return '';
+        },
+
+        async editLevel() {
+            if (!this.auth || !this.level) return;
+            this.editForm = {
+                name: this.level.name || '',
+                id: this.level.id || '',
+                ldm_id: this.level.ldm_id || '',
+                rating: this.level.rating || '',
+                difficulty: typeof this.level.difficulty !== 'undefined' ? this.level.difficulty : '',
+                verifier: this.level.verifier || '',
+                showcase: this.showcase,
+            };
+            this.editingLevel = true;
+        },
+
+        cancelEdit() {
+            this.editingLevel = false;
+            this.editForm = {};
+        },
+
+        async saveLevelEdits() {
+            if (!this.auth || !this.level) return;
+            this.processing = true;
+            try {
+                const token = localStorage.getItem('token');
+                const res = await fetch(`${apiBase}/levels/${encodeURIComponent(this.level.path)}`, {
+                    method: 'PATCH',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': token ? 'Bearer ' + token : ''
+                    },
+                    body: JSON.stringify(this.editForm),
+                });
+                if (!res.ok) {
+                    const body = await res.text();
+                    this.errors.push(`Failed to save level edits: ${res.status} ${body}`);
+                    return;
+                }
+                const updated = await res.json().catch(() => null);
+                const source = updated || this.editForm;
+                Object.assign(this.level, source);
+                this.editingLevel = false;
+            } catch (e) {
+                this.errors.push('Network error saving edits.');
+            } finally {
+                this.processing = false;
+            }
+        },
+
+        async removeRecord(record) {
+            if (!this.auth || !this.level) return;
+            if (!confirm('Remove this record? This action cannot be undone.')) return;
+            this.processing = true;
+            try {
+                const token = localStorage.getItem('token');
+                const res = await fetch(`${apiBase}/levels/${encodeURIComponent(this.level.path)}/records`, {
+                    method: 'DELETE',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'Authorization': token ? 'Bearer ' + token : ''
+                    },
+                    body: JSON.stringify(record)
+                });
+                if (!res.ok) {
+                    const body = await res.text();
+                    this.errors.push(`Failed to remove record: ${res.status} ${body}`);
+                    return;
+                }
+                this.level.records = (this.level.records || []).filter(r => !(r.user === record.user && r.link === record.link));
+            } catch (e) {
+                this.errors.push('Network error removing record.');
+            } finally {
+                this.processing = false;
+            }
+        },
+
+        async deleteLevel() {
+            if (!this.auth || !this.level) return;
+            this.processing = true;
+            try {
+                const token = localStorage.getItem('token');
+                const res = await fetch(`${apiBase}/levels/${encodeURIComponent(this.level.path)}`, {
+                    method: 'DELETE',
+                    headers: token ? { 'Authorization': 'Bearer ' + token } : {},
+                });
+                if (!res.ok) {
+                    let body;
+                    try { body = await res.json(); } catch { body = await res.text().catch(() => null); }
+                    const msg = body && body.error ? body.error : (body && body.message ? body.message : JSON.stringify(body));
+                    this.errors.push(`Failed to delete level: ${res.status} ${msg || ''}`);
+                    return;
+                }
+                // successful delete â€” remove level from local list
+                try {
+                    const data = await res.json().catch(() => null);
+                    const removedName = data && data.deletedLevel && data.deletedLevel.name ? data.deletedLevel.name : (this.level && this.level.name) || this.level.path;
+                    this.errors.push(`Deleted level: ${removedName}`);
+                } catch {}
+
+                // remove the entry from this.list (which is [level, err])
+                const removedIndex = this.selected;
+                this.list = this.list.filter((_, idx) => idx !== removedIndex);
+                // adjust selection
+                if (this.list.length === 0) {
+                    this.selected = null;
+                } else if (removedIndex >= this.list.length) {
+                    this.selected = this.list.length - 1;
+                } else {
+                    this.selected = removedIndex;
+                }
+                this.confirmDelete = false;
+            } catch (e) {
+                console.error('Error deleting level', e);
+                this.errors.push('Network error deleting level.');
+            } finally {
+                this.processing = false;
+            }
+        },
+	},
+};
