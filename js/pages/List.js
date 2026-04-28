@@ -63,7 +63,6 @@ export default {
                         <li>
                             <div class="type-title-sm">Average Enjoyment</div>
                             <p>{{ averageEnjoyment != null ? averageEnjoyment + '/10' : 'N/A' }}</p>
-                            <!-- <p>Coming Soon</p> -->
                         </li>
                     </ul>
 

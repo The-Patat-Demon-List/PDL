@@ -91,6 +91,8 @@ export async function fetchLeaderboard() {
                     level: level.name,
                     score: score(rank + 1, 100, level.percentToQualify),
                     link: record.link,
+                    enjoyment: record.enjoyment,
+                    user: record.user,
                 });
                 return;
             }

@@ -1,4 +1,4 @@
-import { fetchLeaderboard } from '../content.js';
+import { fetchLeaderboard, fetchList } from '../content.js';
 import { localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
@@ -68,6 +68,11 @@ export default {
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
+
+                                <td class="enjoyment">
+                                <p>{{ score.enjoyment != null ? score.enjoyment + '/10' : '' }}</p>
+                                </td>
+
                                 <td class="score">
                                     <p>+{{ localize(score.score) }}</p>
                                 </td>
