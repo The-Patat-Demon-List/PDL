@@ -40,7 +40,7 @@ export default {
                 <div class="level" v-if="level">
                     <h1 style="display:flex; align-items:center; gap:8px;">
                         <div style="display:flex; align-items:center; gap:8px; flex:1;">
-                            <img :src="getDemonRating()" class="difficultyface" v-if="level.difficulty"/>
+                            <img :src="getDemonRating()" class="difficultyface" v-if="level && level.difficulty != null"/>
                             <span style="font-weight:600; font-size:1.1em;">{{ level.name }}</span>
                         </div>
                     </h1>
