@@ -22,7 +22,7 @@
     background-size: 100% 100% !important;
 }
 
-.packs-btn-txt {
+.tag-btn-txt {
     mix-blend-mode: difference;
     color: rgb(255, 255, 255);
 }
@@ -169,4 +169,17 @@
     color: white;
     background-color: #5d5d5d;
     padding: 12px;
+}
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+}
+.tags .tag {
+    display: flex;
+    flex-shrink: 0;
+    background-size: 100% 100% !important;
+    border: 1px solid var(--color-on-background);
+    border-radius: 10px;
+    padding: 7px;
 }

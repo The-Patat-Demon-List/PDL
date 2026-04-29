@@ -45,12 +45,20 @@ export default {
                         </div>
                     </h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+
                     <div class="packs" v-if="level && level.packs && level.packs.length > 0">
                         <div v-for="pack in level.packs || []" class="tag" :style="{background:pack.colour}">
-                            <p class="packs-btn-txt">{{pack.name}}</p>
+                            <p class="tag-btn-txt">{{pack.name}}</p>
                         </div>
                     </div>
+
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+
+                    <div class="tags" v-if="level && level.tags && level.tags.length > 0">
+                        <div v-for="tag in level.tags || []" class="tag" :style="{background:tag.color}">
+                            <p class="tag-btn-txt">{{tag.name}}</p>
+                        </div>
+                    </div>
 
                     <ul class="stats">
                         <li>

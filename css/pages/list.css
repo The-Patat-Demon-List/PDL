@@ -136,3 +136,17 @@
     flex-shrink: 0;
     background-size: 100% 100% !important;
 }
+
+.page-list .level-container .level .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+}
+.page-list .level-container .level .tags .tag {
+    display: flex;
+    flex-shrink: 0;
+    background-size: 100% 100% !important;
+    border: 1px solid var(--color-on-background);
+    border-radius: 10px;
+    padding: 7px;
+}

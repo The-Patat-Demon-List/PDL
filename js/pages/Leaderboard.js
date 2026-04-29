@@ -47,7 +47,7 @@ export default {
                         <h3>{{ entry.total }}</h3>
                         <div class="packs" v-if="entry.packs && entry.packs.length > 0">
                             <div v-for="pack in entry.packs" class="tag" :style="{background:pack.colour}">
-                                <p class="packs-btn-txt">{{pack.name}}</p>
+                                <p class="tag-btn-txt">{{pack.name}}</p>
                             </div>
                         </div>
                         <h2 v-if="entry.verified.length > 0">Verified ({{ entry.verified.length}})</h2>

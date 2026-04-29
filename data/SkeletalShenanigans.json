@@ -8,6 +8,11 @@
     "percentToQualify": "70",
     "enjoyment":8,
     "difficulty":1,
+    "tags": [
+        "xl",
+        "bossfight",
+        "gimmicky"
+    ],
     "records": [
                 {
             "user": "Patat",

@@ -22,7 +22,7 @@ export default {
                         :style="{background: pack.colour}"
                         class="type-label-lg"
                     >
-                        <p class="packs-btn-txt">{{ pack.name }}</p>
+                        <p class="tag-btn-txt">{{ pack.name }}</p>
                     </button>
                 </div>
             </div>
@@ -44,7 +44,7 @@ export default {
                                 ]"
                                 @click="selectedLevel = i"
                             >
-                                <span class="type-label-lg packs-btn-txt">{{
+                                <span class="type-label-lg tag-btn-txt">{{
                                     level[0].level.name || \`Error (.json)\`
                                 }}</span>
                             </button>
@@ -56,7 +56,14 @@ export default {
                 <div class="level" v-if="level">
                     <h1>{{ level.name }}</h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
+
+                    <div class="tags" v-if="level && level.tags && level.tags.length > 0">
+                        <div v-for="tag in level.tags || []" class="tag" :style="{background:tag.color}">
+                            <p class="tag-btn-txt">{{tag.name}}</p>
+                        </div>
+                    </div>
 
                     <ul class="stats">
                         <li>

@@ -8,6 +8,7 @@ const dir = '/data';
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
     const packlist = await fetchPacks();
+    const tagslist = await fetchTags();
     try {
         const list = await listResult.json();
         return await Promise.all(
@@ -15,6 +16,10 @@ export async function fetchList() {
                 const levelResult = await fetch(`${dir}/${path}.json`);
                 try {
                     const level = await levelResult.json();
+                    if (level.tags) {
+                        level.tags = level.tags.map((tag) => tagslist[tag]);
+                    }
+
                     const packs = packlist.filter((pack) => pack.levels.includes(path));
                     return [
                         {
@@ -162,12 +167,16 @@ export async function fetchPackLevels(packname) {
 	const packResult = await fetch(`${dir}/_packlist.json`);
 	const packsList = await packResult.json();
 	const selectedPack = await packsList.find((pack) => pack.name == packname);
+    const tagslist = await fetchTags();
 	try {
 		return await Promise.all(
 			selectedPack.levels.map(async (path, rank) => {
 				const levelResult = await fetch(`${dir}/${path}.json`);
 				try {
 					const level = await levelResult.json();
+                    if (level.tags) {
+                        level.tags = level.tags.map((tag) => tagslist[tag]);
+                    }
 					return [
 						{
 							level,
@@ -185,4 +194,10 @@ export async function fetchPackLevels(packname) {
 		console.error("Failed to load packs.", e);
 		return null;
 	}
+}
+
+export async function fetchTags() {
+    const tagsResult = await fetch(`${dir}/_tags.json`);
+    const tags = await tagsResult.json();
+    return tags;
 }

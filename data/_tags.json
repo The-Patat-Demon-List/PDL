@@ -1,0 +1,62 @@
+{
+    "cube": {
+        "name": "Cube",
+        "color": "#FFFFFF"
+    },
+    "robot": {
+        "name": "Robot",
+        "color": "#FFFFFF"
+    },
+    "ship": {
+        "name": "Ship",
+        "color": "#FFFFFF"
+    },
+    "ball": {
+        "name": "Ball",
+        "color": "#FFFFFF"
+    },
+    "ufo": {
+        "name": "UFO",
+        "color": "#FFFFFF"
+    },
+    "wave": {
+        "name": "Wave",
+        "color": "#FFFFFF"
+    },
+    "swing": {
+        "name": "Swing",
+        "color": "#FFFFFF"
+    },
+    "spider": {
+        "name": "Spider",
+        "color": "#FFFFFF"
+    },
+    "gimmicky": {
+        "name": "Gimmicky",
+        "color": "#FFFFFF"
+    },
+    "flow": {
+        "name": "Flow",
+        "color": "#FFFFFF"
+    },
+    "xl": {
+        "name": "XL",
+        "color": "#FFFFFF"
+    },
+    "short": {
+        "name": "Short",
+        "color": "#FFFFFF"
+    },
+    "chokepoints": {
+        "name": "Chokepoints",
+        "color": "#FFFFFF"
+    },
+    "memory": {
+        "name": "Memory",
+        "color": "#FFFFFF"
+    },
+    "bossfight": {
+        "name": "Bossfight",
+        "color": "#FFFFFF"
+    }
+}
