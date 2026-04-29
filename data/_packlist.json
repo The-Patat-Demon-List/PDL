@@ -1,30 +1,64 @@
 [
     {
-        "name": "Example Pack 1",
+        "name": "Patat's Hardests Pack I",
         "levels": [
-            "Amethyst",
-            "B",
-            "Arcane",
-            "RingTrick",
-            "CraZy"
+            "Deadlocked",
+            "Himari",
+            "Unite",
+            "SeaHunter",
+            "TheLightningRoad"
         ],
-        "colour": "#ff0000"
+        "colour": "linear-gradient(115deg,rgba(255, 255, 0, 1) 0%, rgba(150, 150, 0, 1) 100%)"
     },
     {
-        "name": "Example Pack 2",
+        "name": "Patat's Hardests Pack II",
         "levels": [
-            "Amethyst",
-            "B"
+            "Sephtis",
+            "Arcane",
+            "LittleThingy",
+            "ImaginalSeasons",
+            "SkeletalShenanigans"
         ],
-        "colour": "url('https://media.discordapp.net/attachments/1406482917374427339/1498090078503829548/20260422_230611.jpg?ex=69f1dedb&is=69f08d5b&hm=a6700d57d7f0e5c32673d7982f5fb08328c4673df41542cbdc8632ec74afc87f&=&format=webp&width=968&height=968')"
+        "colour": "linear-gradient(115deg,rgba(179, 21, 92, 1) 0%, rgba(79, 10, 45, 1) 100%)"
     },
     {
-        "name": "Example Pack 3",
+        "name": "Patat's First Demons Pack",
         "levels": [
+            "Sephtis",
             "Arcane",
-            "RingTrick",
-            "CraZy"
+            "ImaginalSeasons",
+            "NoelElectra",
+            "TheLightningRoad"
         ],
-        "colour": "linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(212,208,208,1) 50%, rgba(255,255,255,1) 100%)"
+        "colour": "linear-gradient(115deg,rgba(0, 255, 255, 1) 0%, rgba(0, 99, 99, 1) 100%)"
+    },
+    {
+        "name": "Unrated Pack",
+        "levels": [
+            "TidalLocked",
+            "LiveWire",
+            "iSpyWithMyLittleB"
+        ],
+        "colour": "linear-gradient(115deg,rgba(255, 255, 255, 1) 0%, rgba(200, 200, 200, 1) 100%)"
+    },
+    {
+        "name": "Hard Demon Pack",
+        "levels": [
+            "RingTrick",
+            "CraZy",
+            "Imaginal Seasons",
+            "LittleThingy",
+            "Amethyst"
+        ],
+        "colour": "linear-gradient(115deg,rgba(176, 0, 0, 1) 0%, rgba(64, 0, 0, 1) 100%)"
+    },
+    {
+        "name": "Robtop Pack",
+        "levels": [
+            "Deadlocked",
+            "Toe2",
+            "Clubstep"
+        ],
+        "colour": "linear-gradient(330deg,rgba(0, 46, 116, 1) 0%, rgba(0, 212, 255, 1) 100%)"
     }
 ]
