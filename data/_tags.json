@@ -99,7 +99,7 @@
         "name": "1.9",
         "color": "linear-gradient(115deg,rgba(0, 75, 255, 1) 0%, rgba(144, 0, 255, 1) 80%)"
     },
-    "Pre1.9": {
+    "pre1.9": {
         "name": "Pre-1.9",
         "color": "linear-gradient(115deg,rgba(0, 75, 255, 1) 0%, rgba(144, 0, 255, 1) 80%)"
     }
