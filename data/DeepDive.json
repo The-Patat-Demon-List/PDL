@@ -8,6 +8,14 @@
     "percentToQualify": "70",
     "enjoyment":2,
     "difficulty":1,
+    "tags": [
+        "2.2",
+        "xl",
+        "wave",
+        "chokepoints",
+        "timings",
+        "learny"
+    ],
     "records": [
                 {
             "user": "Patat",
