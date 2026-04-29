@@ -126,3 +126,13 @@
 .page-list .meta .editors li a:hover {
     text-decoration: underline;
 }
+.page-list .level-container .level .packs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4em;
+}
+.page-list .level-container .level .packs .tag {
+    display: flex;
+    flex-shrink: 0;
+    background-size: 100% 100% !important;
+}

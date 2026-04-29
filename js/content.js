@@ -7,6 +7,7 @@ const dir = '/data';
 
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
+    const packlist = await fetchPacks();
     try {
         const list = await listResult.json();
         return await Promise.all(
@@ -14,6 +15,7 @@ export async function fetchList() {
                 const levelResult = await fetch(`${dir}/${path}.json`);
                 try {
                     const level = await levelResult.json();
+                    const packs = packlist.filter((pack) => pack.levels.includes(path));
                     return [
                         {
                             ...level,
@@ -21,6 +23,7 @@ export async function fetchList() {
                             records: level.records.sort(
                                 (a, b) => b.percent - a.percent,
                             ),
+                            packs: packs,
                         },
                         null,
                     ];
@@ -48,6 +51,7 @@ export async function fetchEditors() {
 
 export async function fetchLeaderboard() {
     const list = await fetchList();
+    const packlist = await fetchPacks();
 
     const scoreMap = {};
     const errs = [];
@@ -65,6 +69,7 @@ export async function fetchLeaderboard() {
             verified: [],
             completed: [],
             progressed: [],
+            packs: [],
         };
         const { verified } = scoreMap[verifier];
         verified.push({
@@ -72,6 +77,7 @@ export async function fetchLeaderboard() {
             level: level.name,
             score: score(rank + 1, 100, level.percentToQualify),
             link: level.verification,
+            path: level.path
         });
 
         // Records
@@ -83,6 +89,8 @@ export async function fetchLeaderboard() {
                 verified: [],
                 completed: [],
                 progressed: [],
+                packs: [],
+                path: level.path,
             };
             const { completed, progressed } = scoreMap[user];
             if (record.percent === 100) {
@@ -94,6 +102,7 @@ export async function fetchLeaderboard() {
                     enjoyment: record.enjoyment,
                     levelEnjoyment: level.enjoyment,
                     user: record.user,
+                    path: level.path,
                 });
                 return;
             }
@@ -108,6 +117,18 @@ export async function fetchLeaderboard() {
             });
         });
     });
+
+    // Packs
+    for (let user of Object.entries(scoreMap)) {
+        let levels = [...user[1]["verified"], ...user[1]["completed"]].map(
+            (x) => x["path"],
+        );
+        for (let pack of packlist) {
+            if (pack.levels.every((e1) => levels.includes(e1))) {
+                user[1]["packs"].push(pack);
+            }
+        }
+    }
 
     // Wrap in extra Object containing the user and total score
     const res = Object.entries(scoreMap).map(([user, scores]) => {
@@ -125,4 +146,43 @@ export async function fetchLeaderboard() {
 
     // Sort by total score
     return [res.sort((a, b) => b.total - a.total), errs];
+}
+
+export async function fetchPacks() {
+	try {
+		const packResult = await fetch(`${dir}/_packlist.json`);
+		const packsList = await packResult.json();
+		return packsList;
+	} catch {
+		return null;
+	}
+}
+
+export async function fetchPackLevels(packname) {
+	const packResult = await fetch(`${dir}/_packlist.json`);
+	const packsList = await packResult.json();
+	const selectedPack = await packsList.find((pack) => pack.name == packname);
+	try {
+		return await Promise.all(
+			selectedPack.levels.map(async (path, rank) => {
+				const levelResult = await fetch(`${dir}/${path}.json`);
+				try {
+					const level = await levelResult.json();
+					return [
+						{
+							level,
+							path,
+						},
+						null,
+					];
+				} catch {
+					console.error(`Failed to load level #${rank + 1} ${path}.`);
+					return [null, path];
+				}
+			}),
+		);
+	} catch (e) {
+		console.error("Failed to load packs.", e);
+		return null;
+	}
 }

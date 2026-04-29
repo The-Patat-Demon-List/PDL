@@ -45,6 +45,11 @@ export default {
                         </div>
                     </h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+                    <div class="packs" v-if="level && level.packs && level.packs.length > 0">
+                        <div v-for="pack in level.packs || []" class="tag" :style="{background:pack.colour}">
+                            <p class="packs-btn-txt">{{pack.name}}</p>
+                        </div>
+                    </div>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
 
                     <ul class="stats">
@@ -142,7 +147,7 @@ export default {
         selected: 0,
         errors: [],
         roleIconMap,
-        store
+        store,
     }),
     computed: {
         level() {
@@ -156,28 +161,28 @@ export default {
             return embed(
                 this.toggledShowcase
                     ? this.level.showcase
-                    : this.level.verification
+                    : this.level.verification,
             );
         },
         averageEnjoyment() {
-    if (!this.level || !this.level.records) return null;
+            if (!this.level || !this.level.records) return null;
 
-    const values = this.level.records
-        .map(r => {
-            // Use level enjoyment for Patat
-            if (r.user === 'Patat') {
-                return this.level.enjoyment;
-            }
-            return r.enjoyment;
-        })
-        .filter(e => e != null);
+            const values = this.level.records
+                .map((r) => {
+                    // Use level enjoyment for Patat
+                    if (r.user === "Patat") {
+                        return this.level.enjoyment;
+                    }
+                    return r.enjoyment;
+                })
+                .filter((e) => e != null);
 
-    if (!values.length) return null;
+            if (!values.length) return null;
 
-    const avg = values.reduce((a, b) => a + b, 0) / values.length;
+            const avg = values.reduce((a, b) => a + b, 0) / values.length;
 
-    return avg.toFixed(2);
-}
+            return avg.toFixed(2);
+        },
     },
     async mounted() {
         // Hide loading spinner
@@ -195,7 +200,7 @@ export default {
                     .filter(([_, err]) => err)
                     .map(([_, err]) => {
                         return `Failed to load level. (${err}.json)`;
-                    })
+                    }),
             );
             if (!this.editors) {
                 this.errors.push("Failed to load list editors.");

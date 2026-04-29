@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Example Pack 1",
+        "levels": [
+            "Amethyst",
+            "B",
+            "Arcane",
+            "RingTrick",
+            "CraZy"
+        ],
+        "colour": "#ff0000"
+    },
+    {
+        "name": "Example Pack 2",
+        "levels": [
+            "Amethyst",
+            "B"
+        ],
+        "colour": "url('https://media.discordapp.net/attachments/1406482917374427339/1498090078503829548/20260422_230611.jpg?ex=69f1dedb&is=69f08d5b&hm=a6700d57d7f0e5c32673d7982f5fb08328c4673df41542cbdc8632ec74afc87f&=&format=webp&width=968&height=968')"
+    },
+    {
+        "name": "Example Pack 3",
+        "levels": [
+            "Arcane",
+            "RingTrick",
+            "CraZy"
+        ],
+        "colour": "linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(212,208,208,1) 50%, rgba(255,255,255,1) 100%)"
+    }
+]
