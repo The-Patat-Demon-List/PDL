@@ -1,0 +1,19 @@
+{
+    "id": 2997354,
+    "name": "Decode",
+    "author": "Rek3dge",
+    "creators": [],
+    "verifier": "Rek3dge",
+    "verification": "https://www.youtube.com/watch?v=IRTQZZ502J0",
+    "percentToQualify": "76",
+    "enjoyment":5,
+    "difficulty":0,
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://www.youtube.com/watch?v=IRTQZZ502J0",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
