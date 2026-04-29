@@ -54,7 +54,12 @@ export default {
             </div>
             <div class="level-container">
                 <div class="level" v-if="level">
-                    <h1>{{ level.name }}</h1>
+                    <h1 style="display:flex; align-items:center; gap:8px;">
+                        <div style="display:flex; align-items:center; gap:8px; flex:1;">
+                            <img :src="getDemonRating()" class="difficultyface" v-if="level && level.difficulty != null"/>
+                            <span style="font-weight:600; font-size:1.1em;">{{ level.name }}</span>
+                        </div>
+                    </h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
 
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
@@ -198,6 +203,18 @@ export default {
             this.selectedPackLevels = await fetchPackLevels(
                 this.packs[this.selected].name,
             );
+        },
+        getDemonRating(){
+            const currentLevel = this.level;
+            if (!currentLevel || typeof currentLevel.difficulty === 'undefined') {
+                return '';
+            }
+            const difficultyNames = ["Demon0", "Demon1", "Demon2", "Demon3", "Demon4"];
+            if (difficultyNames[currentLevel.difficulty] + 1) {
+                const name = difficultyNames[currentLevel.difficulty];
+                return `/assets/${name}.png`;
+            }
+            return '';
         },
     },
 };
