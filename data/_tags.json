@@ -1,62 +1,102 @@
 {
     "cube": {
         "name": "Cube",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(0, 255, 0, 1) 0%, rgba(0, 150, 0, 1) 100%)"
     },
     "robot": {
         "name": "Robot",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(237, 237, 237, 1) 0%, rgba(166, 166, 166, 1) 100%)"
     },
     "ship": {
         "name": "Ship",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(251, 0, 255, 1) 0%, rgba(163, 0, 166, 1) 100%)"
     },
     "ball": {
         "name": "Ball",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(255, 0, 0, 1) 0%, rgba(166, 0, 0, 1) 100%)"
     },
     "ufo": {
         "name": "UFO",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(255, 140, 0, 1) 0%, rgba(179, 98, 0, 1) 100%)"
     },
     "wave": {
         "name": "Wave",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(0, 187, 255, 1) 0%, rgba(0, 137, 186, 1) 100%)"
     },
     "swing": {
         "name": "Swing",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(255, 255, 0, 1) 0%, rgba(184, 184, 0, 1) 100%)"
     },
     "spider": {
         "name": "Spider",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(144, 0, 255, 1) 0%, rgba(88, 0, 156, 1) 100%)"
     },
     "gimmicky": {
         "name": "Gimmicky",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(255, 106, 0, 1) 0%, rgba(144, 0, 255, 1) 93%)"
     },
     "flow": {
         "name": "Flow",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(255, 106, 0, 1) 0%, rgba(144, 0, 255, 1) 93%)"
+    },
+    "learny": {
+        "name": "Learny",
+        "color": "linear-gradient(115deg,rgba(255, 106, 0, 1) 0%, rgba(144, 0, 255, 1) 93%)"
     },
     "xl": {
         "name": "XL",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(0, 75, 255, 1) 0%, rgba(144, 0, 255, 1) 80%)"
     },
-    "short": {
-        "name": "Short",
-        "color": "#FFFFFF"
+    "long": {
+        "name": "Long",
+        "color": "linear-gradient(115deg,rgba(0, 75, 255, 1) 0%, rgba(144, 0, 255, 1) 80%)"
+    },
+    "medium": {
+        "name": "Medium",
+        "color": "linear-gradient(115deg,rgba(0, 75, 255, 1) 0%, rgba(144, 0, 255, 1) 80%)"
     },
     "chokepoints": {
         "name": "Chokepoints",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(255, 106, 0, 1) 0%, rgba(144, 0, 255, 1) 93%)"
     },
     "memory": {
         "name": "Memory",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(255, 106, 0, 1) 0%, rgba(144, 0, 255, 1) 93%)"
     },
     "bossfight": {
         "name": "Bossfight",
-        "color": "#FFFFFF"
+        "color": "linear-gradient(115deg,rgba(255, 106, 0, 1) 0%, rgba(144, 0, 255, 1) 93%)"
+    },
+    "duals": {
+        "name": "Duals",
+        "color": "linear-gradient(115deg,rgba(255, 140, 0, 1) 0%, rgba(0, 187, 255, 1) 100%)"
+    },
+    "timings": {
+        "name": "Timings",
+        "color": "linear-gradient(115deg,rgba(255, 106, 0, 1) 0%, rgba(144, 0, 255, 1) 93%)"
+    },
+    "nervecontrol": {
+        "name": "Nerve Control",
+        "color": "linear-gradient(115deg,rgba(255, 106, 0, 1) 0%, rgba(144, 0, 255, 1) 93%)"
+    },
+    "2.2": {
+        "name": "2.2",
+        "color": "linear-gradient(115deg,rgba(0, 75, 255, 1) 0%, rgba(144, 0, 255, 1) 80%)"
+    },
+    "2.1": {
+        "name": "2.1",
+        "color": "linear-gradient(115deg,rgba(0, 75, 255, 1) 0%, rgba(144, 0, 255, 1) 80%)"
+    },
+    "2.0": {
+        "name": "2.0",
+        "color": "linear-gradient(115deg,rgba(0, 75, 255, 1) 0%, rgba(144, 0, 255, 1) 80%)"
+    },
+    "1.9": {
+        "name": "1.9",
+        "color": "linear-gradient(115deg,rgba(0, 75, 255, 1) 0%, rgba(144, 0, 255, 1) 80%)"
+    },
+    "Pre1.9": {
+        "name": "Pre-1.9",
+        "color": "linear-gradient(115deg,rgba(0, 75, 255, 1) 0%, rgba(144, 0, 255, 1) 80%)"
     }
 }
