@@ -79,6 +79,10 @@
         "name": "Nerve Control",
         "color": "linear-gradient(115deg,rgba(255, 106, 0, 1) 0%, rgba(144, 0, 255, 1) 93%)"
     },
+    "highcps": {
+        "name": "High CPS",
+        "color": "linear-gradient(115deg,rgba(255, 106, 0, 1) 0%, rgba(144, 0, 255, 1) 93%)"
+    },
     "2.2": {
         "name": "2.2",
         "color": "linear-gradient(115deg,rgba(0, 75, 255, 1) 0%, rgba(144, 0, 255, 1) 80%)"
