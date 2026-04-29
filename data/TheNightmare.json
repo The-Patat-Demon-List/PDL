@@ -8,6 +8,16 @@
     "percentToQualify": "65",
     "enjoyment":3,
     "difficulty":0,
+    "tags": [
+        "pre1.9",
+        "long",
+        "ball",
+        "ship",
+        "cube",
+        "learny",
+        "chokepoints",
+        "timings"
+    ],
     "records": [
                 {
             "user": "Patat",

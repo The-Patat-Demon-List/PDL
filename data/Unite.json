@@ -8,6 +8,12 @@
     "percentToQualify": "55",
     "enjoyment":10,
     "difficulty":0,
+    "tags": [
+        "2.1",
+        "long",
+        "ship",
+        "wave"
+    ],
     "records": [
        {
             "user": "Patat",

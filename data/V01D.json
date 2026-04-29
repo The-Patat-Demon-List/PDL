@@ -8,6 +8,14 @@
     "percentToQualify": "75",
     "enjoyment":6,
     "difficulty":0,
+    "tags": [
+        "2.1",
+        "long",
+        "ball",
+        "gimmicky",
+        "learny",
+        "timings"
+    ],
     "records": [
        {
             "user": "Patat",

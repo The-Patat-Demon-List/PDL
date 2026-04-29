@@ -8,6 +8,11 @@
     "percentToQualify": "77",
     "enjoyment":0,
     "difficulty":0,
+    "tags": [
+        "2.1",
+        "long",
+        "learny"
+    ],
     "records": [
        {
             "user": "Patat",

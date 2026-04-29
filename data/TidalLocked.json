@@ -8,6 +8,16 @@
     "percentToQualify": "65",
     "enjoyment":8,
     "difficulty":1,
+    "tags": [
+        "2.2",
+        "long",
+        "wave",
+        "ship",
+        "chokepoints",
+        "learny",
+        "highcps",
+        "memory"
+    ],
     "records": [
         {
             "user": "Patat",
