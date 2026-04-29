@@ -8,6 +8,12 @@
     "percentToQualify": "54",
     "enjoyment":5,
     "difficulty":0,
+    "tags": [
+        "2.2",
+        "long",
+        "flow",
+        "timings"
+    ],
     "records": [
        {
             "user": "Patat",

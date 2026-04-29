@@ -8,6 +8,12 @@
     "percentToQualify": "65",
     "enjoyment":8,
     "difficulty":0,
+    "tags": [
+        "2.2",
+        "xl",
+        "chokepoints",
+        "gimmicky"
+    ],
     "records": [
                 {
             "user": "Patat",
