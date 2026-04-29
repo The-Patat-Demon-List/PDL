@@ -8,6 +8,13 @@
     "percentToQualify": "54",
     "enjoyment":6,
     "difficulty":0,
+    "tags": [
+        "2.1",
+        "medium",
+        "wave",
+        "flow",
+        "chokepoints"
+    ],
     "records": [
        {
             "user": "Patat",

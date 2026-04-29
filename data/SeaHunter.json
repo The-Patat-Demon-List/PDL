@@ -8,6 +8,13 @@
     "percentToQualify": "52",
     "enjoyment":9,
     "difficulty":0,
+    "tags": [
+        "2.2",
+        "long",
+        "flow",
+        "learny",
+        "chokepoints"
+    ],
     "records": [
        {
             "user": "Patat",

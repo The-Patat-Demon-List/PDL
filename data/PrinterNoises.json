@@ -8,6 +8,17 @@
     "percentToQualify": "73",
     "enjoyment":7,
     "difficulty":1,
+    "tags": [
+        "2.1",
+        "long",
+        "ship",
+        "wave",
+        "robot",
+        "clicksync",
+        "chokepoints",
+        "gimmicky",
+        "timings"
+    ],
     "records": [
        {
             "user": "Patat",

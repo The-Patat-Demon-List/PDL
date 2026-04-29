@@ -8,8 +8,15 @@
     "percentToQualify": "67",
     "enjoyment":8,
     "difficulty":0,
+    "tags": [
+        "2.1",
+        "long",
+        "duals",
+        "learny",
+        "timings"
+    ],
     "records": [
-                {
+        {
             "user": "Patat",
             "link": "https://youtu.be/NCkXnxyMXaM?si=4C40UMvBtSyrRAcO",
             "percent": 100,
