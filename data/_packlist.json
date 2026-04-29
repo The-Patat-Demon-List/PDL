@@ -5,8 +5,8 @@
             "Deadlocked",
             "Himari",
             "Unite",
-            "Sea Hunter",
-            "The Lightning Road"
+            "SeaHunter",
+            "TheLightning Road"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 255, 0, 1) 0%, rgba(105, 105, 0, 1) 100%)"
     },
@@ -15,9 +15,9 @@
         "levels": [
             "Sephtis",
             "Arcane",
-            "Little Thingy",
-            "Imaginal Seasons",
-            "Skeletal Shenanigans"
+            "LittleThingy",
+            "ImaginalSeasons",
+            "SkeletalShenanigans"
         ],
         "colour": "linear-gradient(115deg,rgba(179, 21, 92, 1) 0%, rgba(79, 10, 45, 1) 100%)"
     },
@@ -26,17 +26,17 @@
         "levels": [
             "Sephtis",
             "Arcane",
-            "Imaginal Seasons",
-            "Noel Electra",
-            "The Lightning Road"
+            "ImaginalSeasons",
+            "NoelElectra",
+            "TheLightningRoad"
         ],
         "colour": "linear-gradient(115deg,rgba(0, 255, 255, 1) 0%, rgba(0, 99, 99, 1) 100%)"
     },
     {
         "name": "Unrated Pack",
         "levels": [
-            "Tidal Locked",
-            "Live Wire",
+            "TidalLocked",
+            "LiveWire",
             "iSpyWithMyLittleB"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 255, 255, 1) 0%, rgba(102, 102, 102, 1) 100%)"
@@ -44,10 +44,10 @@
     {
         "name": "Hard Demon Pack",
         "levels": [
-            "Ring Trick",
+            "RingTrick",
             "CraZy",
             "Imaginal Seasons",
-            "Little Thingy",
+            "LittleThingy",
             "Amethyst"
         ],
         "colour": "linear-gradient(115deg,rgba(176, 0, 0, 1) 0%, rgba(64, 0, 0, 1) 100%)"
