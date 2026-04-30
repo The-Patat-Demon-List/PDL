@@ -125,5 +125,36 @@
             "LiveWire"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 166, 0, 1) 0%, rgba(247, 255, 94, 1) 100%)"
+    },
+        {
+        "name": "Ocean Pack",
+        "levels": [
+            "DeepDive",
+            "BlueHell",
+            "SunkenPolis",
+            "SeaHunter",
+            "RagingRapids"
+        ],
+        "colour": "linear-gradient(115deg,rgba(0, 195, 235, 1) 0%, rgba(0, 76, 255, 1) 100%)"
+    },
+        {
+        "name": "Atmospheric Pack",
+        "levels": [
+            "ImaginalSeasons",
+            "Static",
+            "Shristal",
+            "Unite"
+        ],
+        "colour": "linear-gradient(115deg,rgba(255, 239, 189, 1) 0%, rgba(255, 189, 232, 1) 100%)"
+    },
+        {
+        "name": "Hell Pack",
+        "levels": [
+            "Arcane",
+            "Kiln",
+            "DeathMoon",
+            "BlueHell"
+        ],
+        "colour": "linear-gradient(115deg,rgba(255, 98, 0, 1) 0%, rgba(156, 0, 0, 1) 100%)"
     }
 ]
