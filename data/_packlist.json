@@ -156,5 +156,25 @@
             "BlueHell"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 98, 0, 1) 0%, rgba(156, 0, 0, 1) 100%)"
+    },
+            {
+        "name": "Perfect Pack",
+        "levels": [
+            "Arcane",
+            "LittleThingy",
+            "Deadlocked",
+            "Unite"
+        ],
+        "colour": "linear-gradient(115deg,rgba(255, 98, 0, 1) 0%, rgba(156, 0, 0, 1) 100%)"
+    },
+                {
+        "name": "Ass Pack",
+        "levels": [
+            "Sephtis",
+            "NoelElectra",
+            "HauntedMoon",
+            "Shiver"
+        ],
+        "colour": "linear-gradient(115deg,rgba(163, 98, 51, 1) 0%, rgba(110, 52, 8, 1) 100%)"
     }
 ]
