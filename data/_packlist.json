@@ -75,5 +75,27 @@
             "Clubstep"
         ],
         "colour": "linear-gradient(330deg,rgba(0, 46, 116, 1) 0%, rgba(0, 212, 255, 1) 100%)"
+    },
+        {
+        "name": "Flow Pack I",
+        "levels": [
+          "LiveWire",
+          "Himari",
+          "Phjork",
+          "SeaHunter",
+          "DigitalZ"
+        ],
+        "colour": "linear-gradient(115deg,rgba(255, 0, 187, 1) 0%, rgba(255, 0, 38, 1) 100%);"
+    },
+        {
+        "name": "Flow Pack II",
+        "levels": [
+           "Sephtis",
+           "Arcane",
+           "Fratura",
+           "Amethyst",
+           "NoelElectra"
+        ],
+        "colour": "linear-gradient(115deg,rgba(255, 0, 38, 1) 0%, rgba(122, 0, 0, 1) 100%);"
     }
 ]
