@@ -47,7 +47,7 @@ export default {
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
 
                     <p>
-                        <span v-if="level.description != null">
+                        <span v-if="level.description != null && level.description != ''">
                             {{ level.description }}
                         </span>
                         <em v-else>

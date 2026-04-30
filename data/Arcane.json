@@ -8,12 +8,13 @@
     "percentToQualify": "70",
     "enjoyment":10,
     "difficulty":3,
+    "description": "",
     "tags": [
         "2.1",
         "xl",
+        "duals",
         "learny",
         "nervecontrol",
-        "duals",
         "flow"
     ],
     "records": [
