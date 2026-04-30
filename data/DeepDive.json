@@ -37,6 +37,13 @@
             "percent": 100,
             "enjoyment":0,
             "hz": 240
+        },
+        {
+            "user": "Metronite",
+            "link": "https://medal.tv/games/geometry-dash/clips/mCepqOWYOgEk4gZ1t?invite=cr-MSxxSlMsNDQ2ODY3MjM5&v=128",
+            "percent": 100,
+            "enjoyment": 10,
+            "hz": 240
         }
     ]
 }
