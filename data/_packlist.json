@@ -109,7 +109,7 @@
         "colour": "linear-gradient(115deg,rgba(255, 132, 0, 1) 0%, rgba(163, 255, 33, 1) 100%)"
     },
         {
-        "name": "Classics",
+        "name": "Classics Pack",
         "levels": [
        "PlatinumAdventure",
        "TheLightningRoad",
@@ -118,7 +118,7 @@
         "colour": "linear-gradient(115deg,rgba(0, 255, 111, 1) 0%, rgba(94, 231, 255, 1) 100%)"
     },
         {
-        "name": "Off-Brands",
+        "name": "Off-Brand Pack",
         "levels": [
             "TidalLocked",
             "Amethyst",
