@@ -97,5 +97,33 @@
            "NoelElectra"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 0, 38, 1) 0%, rgba(122, 0, 0, 1) 100%)"
+    },
+        {
+        "name": "Bossfight Pack",
+        "levels": [
+        "SkeletalShenanigans",
+        "B",
+        "iSpyWithMyLittleEye",
+        "iSpyWithMyLittleB"
+        ],
+        "colour": "linear-gradient(115deg,rgba(255, 132, 0, 1) 0%, rgba(148, 230, 255, 1) 100%)"
+    },
+        {
+        "name": "Classics",
+        "levels": [
+       "PlatinumAdventure",
+       "TheLightningRoad",
+       "TheNightmare"
+        ],
+        "colour": "linear-gradient(115deg,rgba(0, 255, 111, 1) 0%, rgba(94, 231, 255, 1) 100%)"
+    },
+        {
+        "name": "Off-Brands",
+        "levels": [
+            "TidalLocked",
+            "Amethyst",
+            "LiveWire"
+        ],
+        "colour": "linear-gradient(115deg,rgba(255, 166, 0, 1) 0%, rgba(247, 255, 94, 1) 100%)"
     }
 ]
