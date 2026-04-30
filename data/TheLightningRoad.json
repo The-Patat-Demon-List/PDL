@@ -51,11 +51,18 @@
             "enjoyment": 4,
             "hz": 240
         },
-                                        {
+        {
             "user": "aitra",
             "link": "https://medal.tv/games/geometry-dash/clips/mBk1RLqsjoZxsOt_B?invite=cr-MSxkMTgsNjE3MzU0ODQ2&v=93",
             "percent": 100,
             "enjoyment":1,
+            "hz": 240
+        },
+        {
+            "user": "Aciocio",
+            "link": "https://www.youtube.com/watch?v=xKQNqhGlEpU",
+            "percent": 100,
+            "enjoyment":8,
             "hz": 240
         }
     ]
