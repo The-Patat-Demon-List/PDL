@@ -46,6 +46,15 @@ export default {
                     </h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
 
+                    <p>
+                        <span v-if="level.description != null">
+                            {{ level.description }}
+                        </span>
+                        <em v-else>
+                            No description has been provided
+                        </em>
+                    </p>
+
                     <div class="packs" v-if="level && level.packs && level.packs.length > 0">
                         <div v-for="pack in level.packs || []" class="tag" :style="{background:pack.colour}">
                             <p class="tag-btn-txt">{{pack.name}}</p>
