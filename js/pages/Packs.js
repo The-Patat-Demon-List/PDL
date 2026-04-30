@@ -62,6 +62,15 @@ export default {
                     </h1>
                     <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
 
+                    <p>
+                        <span v-if="level.description != null">
+                            {{ level.description }}
+                        </span>
+                        <em v-else>
+                            No description has been provided
+                        </em>
+                    </p>
+
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
 
                     <div class="tags" v-if="level && level.tags && level.tags.length > 0">
