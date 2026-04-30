@@ -1,0 +1,32 @@
+{
+    "id": 110340739,
+    "name": "Playlist",
+    "author": "LightPotatoDev",
+    "creators": [],
+    "verifier": "LightPotatoDev",
+    "verification": "https://youtu.be/Ik3t3kdiG8M",
+    "percentToQualify": "73",
+    "enjoyment":6,
+    "difficulty":0,
+    "tags": [
+        "2.2",
+        "long",
+        "chokepoints",
+        "gimmicky"
+    ],
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/Ik3t3kdiG8M",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "DiamondNovabeast",
+            "link": "https://cdn.discordapp.com/attachments/1096168674190164008/1499415343180021761/Screenshot_2026-04-30_091302.png?ex=69f4b6db&is=69f3655b&hm=b4aacde95ec8ab25f0d0440ec5b8d959616f2f649a9d98f6ab8b9ae2d34d0157&",
+            "percent": 100,
+            "enjoyment":7,
+            "hz": 240
+        }
+    ]
+}
