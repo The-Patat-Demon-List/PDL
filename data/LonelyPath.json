@@ -8,6 +8,7 @@
     "percentToQualify": "80",
     "enjoyment":8,
     "difficulty":0,
+    "description": "",
     "tags": [
         "2.2",
         "long",
