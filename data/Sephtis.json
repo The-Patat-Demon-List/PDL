@@ -8,10 +8,12 @@
     "percentToQualify": 73,
     "enjoyment":0,
     "difficulty":4,
+    "description": "A red and blue, glow-style, flow level with very learny gameplay carried by the wave sections. It's also sprinkled with multiple bugs and chokepoints.",
     "tags":[
         "2.1",
         "long",
         "flow",
+        "learny",
         "chokepoints",
         "highcps"
     ],
