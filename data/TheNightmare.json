@@ -80,6 +80,13 @@
             "enjoyment":3,
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Tyrant",
+            "link": "https://gyazo.com/e63a9ca95416706d6261c0b624fec16f",
+            "enjoyment":3,
+            "percent": 100,
+            "hz": 240
         }
     ]
 }

@@ -63,6 +63,13 @@
             "link": "https://youtu.be/Drk8EdQ-9Gw?is=UPb6KIPs41ovE_9R",
             "percent": 94,
             "hz": 240
+        },
+        {
+            "user": "Tyrant",
+            "link": "https://www.youtube.com/watch?v=UOf0qsujUfY",
+            "enjoyment":4,
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
