@@ -1,0 +1,30 @@
+{
+    "id": 3543219,
+    "name": "Speed Racer",
+    "author": "ZenthicAlpha",
+    "creators": [],
+    "verifier": "ZenthicAlpha",
+    "verification": "https://www.youtube.com/watch?v=KbCbTxerElQ",
+    "percentToQualify": "76",
+    "enjoyment":10,
+    "difficulty":0,
+    "description": "",
+    "tags": [
+        "1.9",
+        "long",
+        "ship",
+        "ball",
+        "learny",
+        "gimmicky",
+        "chokepoints",
+        "timings"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://www.youtube.com/watch?v=KbCbTxerElQ",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
