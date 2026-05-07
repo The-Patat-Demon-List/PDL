@@ -20,6 +20,20 @@
             "link": "https://youtu.be/Omk2bNlV5mU",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "DiamondNovabeast",
+            "link": "https://cdn.discordapp.com/attachments/1096168674190164008/1502036802863894649/image.png?ex=69fe4048&is=69fceec8&hm=bf67fcf2a7a2e72eacd3363c7090a58d05c07fb87cbaa0b607f06eebe4413e93&",
+            "percent": 100,
+            "enjoyment":6,
+            "hz": 240
+        },
+        {
+            "user": "Cross",
+            "link": "https://drive.google.com/file/d/1F-pFddTqIcfh1pmSG8Se-tNeD_w4Q5Un/view?usp=sharing",
+            "percent": 100,
+            "enjoyment":9,
+            "hz": 240
         }
     ]
 }

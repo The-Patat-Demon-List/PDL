@@ -31,6 +31,14 @@
             "user": "DiamondNovabeast",
             "link": "https://cdn.discordapp.com/attachments/1096168674190164008/1501951278140358836/image.png?ex=69fdf0a1&is=69fc9f21&hm=92c39996a8ab90d935612081eb5cde627f48c3c116df5656a63a4a6eb522c00a&",
             "percent": 100,
+            "enjoyment":7,
+            "hz": 240
+        },
+        {
+            "user": "Cross",
+            "link": "https://drive.google.com/file/d/1Mc3zh9wj7uo6PA1RvLmLPwBisK1uoqJT/view?usp=sharing",
+            "percent": 100,
+            "enjoyment":8,
             "hz": 240
         }
     ]
