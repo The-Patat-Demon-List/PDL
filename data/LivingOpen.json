@@ -1,0 +1,37 @@
+{
+    "id": 96716452,
+    "name": "Living Open",
+    "author": "MaFFaKa",
+    "creators": [],
+    "verifier": "MaFFaKa",
+    "verification": "https://www.youtube.com/watch?v=NKIg8lm48jk",
+    "percentToQualify": "72",
+    "enjoyment":8,
+    "difficulty":1,
+    "description": "",
+    "tags": [
+        "2.1",
+        "long",
+        "wave",
+        "ship",
+        "chokepoints",
+        "memory",
+        "nervecontrol",
+        "learny",
+        "highcps"
+    ],
+    "records": [
+        {
+            "user": "Patat",
+            "link": "https://www.youtube.com/watch?v=NKIg8lm48jk",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "DiamondNovabeast",
+            "link": "https://cdn.discordapp.com/attachments/1096168674190164008/1501951278140358836/image.png?ex=69fdf0a1&is=69fc9f21&hm=92c39996a8ab90d935612081eb5cde627f48c3c116df5656a63a4a6eb522c00a&",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

@@ -35,6 +35,7 @@
     {
         "name": "Unrated Pack",
         "levels": [
+            "EruptionOld",
             "TidalLocked",
             "LiveWire",
             "iSpyWithMyLittleB"
@@ -42,25 +43,34 @@
         "colour": "linear-gradient(115deg,rgba(255, 255, 255, 1) 0%, rgba(200, 200, 200, 1) 100%)"
     },
     {
-        "name": "Medium Demon Pack",
+        "name": "Medium Demon Pack I",
         "levels": [
             "Static",
             "DeepDive",
             "Fratura",
             "TidalLocked",
             "Charge",
-            "SkeletalShenanigans",
-            "PrinterNoises",
-            "B",
-            "Kiln"
+            "SkeletalShenanigans"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 50, 213, 1) 0%, rgba(171, 41, 145, 1) 93%)"
+    },
+    {
+        "name": "Medium Demon Pack II",
+        "levels": [
+            "PrinterNoises",
+            "B",
+            "LivingOpen",
+            "Kiln",
+            "ModernNredom"
+        ],
+        "colour": "linear-gradient(115deg,rgba(194, 50, 255, 1) 0%, rgba(127, 32, 168, 1) 93%)"
     },
     {
         "name": "Hard Demon Pack",
         "levels": [
             "RingTrick",
             "CraZy",
+            "EruptionOld",
             "ImaginalSeasons",
             "LittleThingy",
             "Amethyst"
@@ -123,6 +133,7 @@
         "levels": [
             "TidalLocked",
             "Amethyst",
+            "LivingOpen",
             "LiveWire"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 166, 0, 1) 0%, rgba(247, 255, 94, 1) 100%)"

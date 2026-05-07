@@ -1,0 +1,35 @@
+{
+    "id": 139842936,
+    "name": "Eruption OLD",
+    "author": "Patatforever",
+    "creators": [],
+    "verifier": "Patatforever",
+    "verification": "https://youtu.be/DZAgVqNtRoM",
+    "percentToQualify": "69",
+    "enjoyment":6,
+    "difficulty":2,
+    "description": "",
+    "tags": [
+        "2.2",
+        "long",
+        "wave",
+        "ship",
+        "chokepoints",
+        "timings"
+    ],
+    "records": [
+        {
+            "user": "Patat",
+            "link": "https://youtu.be/DZAgVqNtRoM",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Cross",
+            "link": "https://drive.google.com/file/d/1ieoLbtN6HpZpyzHRAX0okm4nsC8hFLae/view?usp=sharing",
+            "percent": 100,
+            "enjoyment":10,
+            "hz": 240
+        }
+    ]
+}

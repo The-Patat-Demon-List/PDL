@@ -1,0 +1,25 @@
+{
+    "id": 129180460,
+    "name": "Modern nredoM",
+    "author": "Raguno",
+    "creators": [],
+    "verifier": "Raguno",
+    "verification": "https://youtu.be/Omk2bNlV5mU",
+    "percentToQualify": "73",
+    "enjoyment":8,
+    "difficulty":1,
+    "description": "",
+    "tags": [
+        "2.2",
+        "long",
+        "learny"
+    ],
+    "records": [
+        {
+            "user": "Patat",
+            "link": "https://youtu.be/Omk2bNlV5mU",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
