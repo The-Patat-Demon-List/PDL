@@ -22,6 +22,26 @@
             "link": "https://youtu.be/zK3c_RDr-88",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "DiamondNovabeast",
+            "link": "https://youtu.be/ruVg3My6S1U",
+            "percent": 100,
+            "enjoyment":5,
+            "hz": 240
+        },
+        {
+            "user": "Aciocio",
+            "link": "https://youtu.be/eoJGnl0mo3U?is=5ia5pE-zZqFC19TZ",
+            "percent": 100,
+            "enjoyment":8,
+            "hz": 240
+        },
+        {
+            "user": "Cross",
+            "link": "https://drive.google.com/file/d/1RWRsjQNmEjRmwSNG74AxhjqGirO4pmYo/view",
+            "percent": 90,
+            "hz": 240
         }
     ]
 }
