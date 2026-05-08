@@ -45,23 +45,23 @@
         {
         "name": "Medium Demon Pack I",
         "levels": [
-            "Static",
-            "DeepDive",
-            "Fratura",
-            "TidalLocked",
-            "Charge",
-            "SkeletalShenanigans"
+            "PrinterNoises",
+            "B",
+            "LivingOpen",
+            "Kiln",
+            "ModernNredom"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 50, 213, 1) 0%, rgba(171, 41, 145, 1) 93%)"
     },
     {    
          "name": "Medium Demon Pack II",
         "levels": [
-            "PrinterNoises",
-            "B",
-            "LivingOpen",
-            "Kiln",
-            "ModernNredom"
+            "Static",
+            "DeepDive",
+            "Fratura",
+            "TidalLocked",
+            "Charge",
+            "SkeletalShenanigans"
         ],
         "colour": "linear-gradient(115deg,rgba(194, 50, 255, 1) 0%, rgba(127, 32, 168, 1) 93%)"
     },     
