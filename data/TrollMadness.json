@@ -1,0 +1,27 @@
+{
+    "id": 114532158,
+    "name": "Troll Madness",
+    "author": "zyphur",
+    "creators": [],
+    "verifier": "zyphur",
+    "verification": "https://youtu.be/zK3c_RDr-88",
+    "percentToQualify": "72",
+    "enjoyment":3,
+    "difficulty":2,
+    "description": "",
+    "tags": [
+        "2.2",
+        "long",
+        "memory",
+        "gimmicky",
+        "learny"
+    ],
+    "records": [
+        {
+            "user": "Patat",
+            "link": "https://youtu.be/zK3c_RDr-88",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
