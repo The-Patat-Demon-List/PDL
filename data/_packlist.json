@@ -70,6 +70,7 @@
         "levels": [
             "RingTrick",
             "CraZy",
+            "DifferentDescent",
             "EruptionOld",
             "ImaginalSeasons",
             "LittleThingy",
@@ -131,6 +132,7 @@
         {
         "name": "Off-Brand Pack",
         "levels": [
+            "DifferentDescent",
             "TidalLocked",
             "Amethyst",
             "LivingOpen",
