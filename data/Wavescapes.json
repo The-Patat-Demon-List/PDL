@@ -8,7 +8,7 @@
     "percentToQualify": "69",
     "enjoyment":10,
     "difficulty":2,
-    "description": "A Nullscapes inspired level opting to use mainly the wave gamemode instead of the robot gamemode",
+    "description": "A Nullscapes-inspired level opting to use mainly the wave gamemode instead of the robot gamemode.",
     "tags": [
         "2.2",
         "long",
@@ -16,10 +16,24 @@
         "chokepoints"
     ],
     "records": [
-       {
+        {
             "user": "Patat",
             "link": "https://youtu.be/UXrZ0WLaHls",
             "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "DiamondNovabeast",
+            "link": "https://youtu.be/W9trJHATHgQ",
+            "percent": 100,
+            "enjoyment":7,
+            "hz": 240
+        },
+        {
+            "user": "Cross",
+            "link": "https://www.youtube.com/watch?v=vOhOAlBQ5vk",
+            "percent": 100,
+            "enjoyment":9,
             "hz": 240
         }
     ]
