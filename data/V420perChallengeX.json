@@ -1,0 +1,27 @@
+{
+    "id": 138366513,
+    "name": "v420per challenge X",
+    "author": "cuneiformality",
+    "creators": [],
+    "verifier": "cuneiformality",
+    "verification": "https://youtu.be/pNRWHu0Zq24?si=lbWIoLNqasVdvSFA",
+    "percentToQualify": "70",
+    "enjoyment":7,
+    "difficulty":2,
+    "description": "",
+    "tags": [
+        "2.2",
+        "medium",
+        "wave",
+        "chokepoints",
+        "timings"
+    ],
+    "records": [
+        {
+            "user": "Patat",
+            "link": "https://youtu.be/pNRWHu0Zq24?si=lbWIoLNqasVdvSFA",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
