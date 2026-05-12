@@ -22,6 +22,20 @@
             "link": "https://youtu.be/WSlK8gDP__0?si=h2hDK5Jnp5y6PFj_",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Cross",
+            "link": "https://drive.google.com/file/d/1aS4EWJ2QHRuSozu6NamD-LTmpwEWtioN/view?usp=sharing",
+            "percent": 100,
+            "enjoyment":8,
+            "hz": 240
+        },
+        {
+            "user": "DiamondNovabeast",
+            "link": "https://cdn.discordapp.com/attachments/1096168674190164008/1503778811685109880/image.png?ex=6a0496a7&is=6a034527&hm=7d3b735d0ea0328f88ffa3d72936014ab0cd7dee07ce2233c2e75b0707bcaaee&",
+            "percent": 100,
+            "enjoyment":7,
+            "hz": 240
         }
     ]
 }
