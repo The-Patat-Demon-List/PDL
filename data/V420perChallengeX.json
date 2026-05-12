@@ -22,6 +22,20 @@
             "link": "https://youtu.be/pNRWHu0Zq24?si=lbWIoLNqasVdvSFA",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Metronite",
+            "link": "https://medal.tv/games/geometry-dash/clips/mHdImp6YZxkfMYxiA?invite=cr-MSxLOE0sNDQ2ODY3MjM5&v=37",
+            "percent": 100,
+            "enjoyment":8,
+            "hz": 240
+        },
+        {
+            "user": "Cross",
+            "link": "https://youtu.be/EDa-v8Zsf3o",
+            "percent": 100,
+            "enjoyment":2,
+            "hz": 240
         }
     ]
 }

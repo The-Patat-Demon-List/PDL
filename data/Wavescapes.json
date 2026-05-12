@@ -35,6 +35,20 @@
             "percent": 100,
             "enjoyment":9,
             "hz": 240
+        },
+        {
+            "user": "Metronite",
+            "link": "https://medal.tv/games/geometry-dash/clips/mHdRXmlASkrVjWDjC?invite=cr-MSx5YXosNDQ2ODY3MjM5&v=64",
+            "percent": 100,
+            "enjoyment":10,
+            "hz": 240
+        },
+        {
+            "user": "Dygitol",
+            "link": "https://cdn.discordapp.com/attachments/1440294902608040017/1503846275601399999/201AD01.JPG?ex=6a04d57c&is=6a0383fc&hm=96a00841286c4c3d91a268973e7d4f9304f170a05204ea85fd0405a0d6bd412d&",
+            "percent": 100,
+            "enjoyment":8,
+            "hz": 240
         }
     ]
 }

@@ -70,6 +70,13 @@
             "enjoyment":2,
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Metronite",
+            "link": "https://discord.com/channels/1425772341886976137/1473700604139540541/1503824096369049691",
+            "percent": 100,
+            "enjoyment":5,
+            "hz": 240
         }
     ]  
 }
