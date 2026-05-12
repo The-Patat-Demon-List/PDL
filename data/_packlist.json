@@ -38,6 +38,7 @@
             "EruptionOld",
             "Wavescapes",
             "TidalLocked",
+            "inaBlinkOfAnEye",
             "LiveWire",
             "iSpyWithMyLittleB"
         ],
@@ -49,6 +50,7 @@
             "PrinterNoises",
             "B",
             "LivingOpen",
+            "inaBlinkOfAnEye",
             "Kiln",
             "ModernNredom"
         ],
@@ -58,6 +60,7 @@
          "name": "Medium Demon Pack II",
         "levels": [
             "Static",
+            "Wavescapes",
             "DeepDive",
             "Fratura",
             "TidalLocked",
@@ -74,7 +77,6 @@
             "DifferentDescent",
             "EruptionOld",
             "ImaginalSeasons",
-            "Wavescapes",
             "LittleThingy",
             "TrollMadness",
             "Amethyst"
@@ -99,6 +101,16 @@
 
         ],
         "colour": "linear-gradient(115deg,rgba(0, 201, 50, 1) 0%, rgba(0, 166, 199, 1) 100%)"
+    },
+    {      
+        "name": "iSpy and Friends",
+        "levels": [
+            "inaBlinkOfAnEye",
+            "iSpyWithMyLittleEye",
+            "iSpyWithMyLittleB"
+
+        ],
+        "colour": "linear-gradient(115deg,rgba(255, 255, 255, 1) 0%, rgba(199, 0, 0, 1) 100%)"
     },
         {
         "name": "Flow Pack I",
