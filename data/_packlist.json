@@ -39,7 +39,7 @@
             "V420perChallengeX",
             "Wavescapes",
             "TidalLocked",
-            "inaBlinkOfAnEye",
+            "InaBlinkOfAnEye",
             "LiveWire",
             "iSpyWithMyLittleB"
         ],
@@ -51,7 +51,7 @@
             "PrinterNoises",
             "B",
             "LivingOpen",
-            "inaBlinkOfAnEye",
+            "InaBlinkOfAnEye",
             "Kiln",
             "ModernNredom"
         ],
@@ -184,7 +184,7 @@
         "name": "Atmospheric Pack",
         "levels": [
             "ImaginalSeasons",
-            "wavescapes",
+            "Wavescapes",
             "Static",
             "Shristal",
             "Unite"
