@@ -1,0 +1,25 @@
+{
+    "id": 65269826,
+    "name": "StyX",
+    "author": "Whirl",
+    "creators": [],
+    "verifier": "Whirl",
+    "verification": "https://youtu.be/e0MSBjirFzU?si=fxnxCQ8Q6kb4PmMW",
+    "percentToQualify": "70",
+    "enjoyment":3,
+    "difficulty":0,
+    "description": "",
+    "tags": [
+        "2.1",
+        "chokepoints",
+        "timings"   
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/e0MSBjirFzU?si=fxnxCQ8Q6kb4PmMW",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

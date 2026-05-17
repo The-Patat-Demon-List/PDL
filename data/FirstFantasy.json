@@ -1,0 +1,27 @@
+{
+    "id": 140205215,
+    "name": "First Fantasy",
+    "author": "Patat",
+    "creators": [],
+    "verifier": "Patat",
+    "verification": "https://youtu.be/pe7MOCvkP0A?si=XSSvEFZjAEQPLiCt",
+    "percentToQualify": "45",
+    "enjoyment":10,
+    "difficulty":2,
+    "description": "A nerfed version of the popular top 6 challenge FINAL FANTASY made and verified by Patat to help improve his timings skill",
+    "tags": [
+        "2.2",
+        "Short",
+        "Cube",
+        "Timings"
+    ],
+    "records": [
+        {
+            "user": "Cross",
+            "link": "https://youtu.be/pe7MOCvkP0A?si=XSSvEFZjAEQPLiCt",
+            "percent": 100,
+            "enjoyment":6,
+            "hz": 240
+        }
+    ]
+}

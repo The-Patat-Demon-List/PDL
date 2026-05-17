@@ -36,6 +36,7 @@
         "name": "Unrated Pack",
         "levels": [
             "EruptionOld",
+            "FirstFantasy",
             "V420perChallengeX",
             "Wavescapes",
             "TidalLocked",
@@ -78,8 +79,9 @@
             "DifferentDescent",
             "EruptionOld",
             "ImaginalSeasons",
-            "V420perChallengeX",
+            "FirstFantasy",
             "LittleThingy",
+            "V420perChallengeX",
             "TrollMadness",
             "Amethyst"
         ],
@@ -160,6 +162,7 @@
         "name": "Off-Brand Pack",
         "levels": [
             "DifferentDescent",
+            "FirstFantasy",
             "V420perChallengeX",
             "Wavescapes",
             "TidalLocked",
@@ -205,8 +208,10 @@
         "name": "Perfect Pack",
         "levels": [
             "Arcane",
-            "Wavescapes",
+            "FirstFantasy",
             "LittleThingy",
+            "V420perChallengeX",
+            "Wavescapes",
             "Deadlocked",
             "Unite"
         ],
