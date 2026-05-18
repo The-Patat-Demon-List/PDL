@@ -95,6 +95,13 @@
             "enjoyment":10,
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "typher",
+            "link": "https://www.twitch.tv/videos/2080554892",
+            "percent": 100,
+            "enjoyment":7,
+            "hz": 240
         }
     ]
 }

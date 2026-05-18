@@ -66,6 +66,13 @@
             "enjoyment":5,
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "typher",
+            "link": "https://www.youtube.com/watch?v=Ry3H2fweims&t=162s",
+            "percent": 100,
+            "enjoyment":5,
+            "hz": 240
         }
     ]
 }
