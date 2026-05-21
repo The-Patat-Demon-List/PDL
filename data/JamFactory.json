@@ -1,0 +1,27 @@
+{
+    "id": 75281752,
+    "name": "JAM FACTORY",
+    "author": "JamAttack",
+    "creators": [],
+    "verifier": "JamAttack",
+    "verification": "https://youtu.be/4O3sYJ5eOvo?si=KysWOW7RfRmKFLSR",
+    "percentToQualify": "74",
+    "enjoyment":7,
+    "difficulty":1,
+    "description": "",
+    "tags": [
+        "2.1",
+        "xl",
+        "timings",
+        "learny",
+        "nervecontrol"
+    ],
+    "records": [
+                {
+            "user": "Patat",
+            "link": "https://youtu.be/4O3sYJ5eOvo?si=KysWOW7RfRmKFLSR",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

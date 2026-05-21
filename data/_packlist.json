@@ -49,6 +49,7 @@
         {
         "name": "Medium Demon Pack I",
         "levels": [
+            "SkeletalShenanigans",
             "PrinterNoises",
             "B",
             "LivingOpen",
@@ -61,13 +62,13 @@
     {    
          "name": "Medium Demon Pack II",
         "levels": [
+            "JamFactory",
             "Static",
             "Wavescapes",
             "DeepDive",
             "Fratura",
             "TidalLocked",
-            "Charge",
-            "SkeletalShenanigans"
+            "Charge"
         ],
         "colour": "linear-gradient(115deg,rgba(194, 50, 255, 1) 0%, rgba(127, 32, 168, 1) 93%)"
     },     
