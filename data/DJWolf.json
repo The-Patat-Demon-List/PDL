@@ -1,0 +1,28 @@
+{
+    "id": 136131661,
+    "name": "DJ Wolf",
+    "author": "Knotic",
+    "creators": [],
+    "verifier": "Knotic",
+    "verification": "https://youtu.be/0OmjzE7hd4c?si=iyRMb6bTzVl5fx6F",
+    "percentToQualify": "74",
+    "enjoyment":8,
+    "difficulty":0,
+    "description": "",
+    "tags": [
+        "2.2",
+        "long",
+        "gimmicky",
+        "nervecontrol",
+        "learny",
+        "bossfight"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/0OmjzE7hd4c?si=iyRMb6bTzVl5fx6F",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

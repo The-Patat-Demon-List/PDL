@@ -1,0 +1,26 @@
+{
+    "id": 140226997,
+    "name": "Castle Rock",
+    "author": "wetols",
+    "creators": [],
+    "verifier": "wetols",
+    "verification": "https://youtu.be/IAid7088Akk?si=p3ZwOP3kXsupzAXc",
+    "percentToQualify": "74",
+    "enjoyment":8,
+    "difficulty":0,
+    "description": "",
+    "tags": [
+        "2.2",
+        "long",
+        "ship",
+        "highcps"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/IAid7088Akk?si=p3ZwOP3kXsupzAXc",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
