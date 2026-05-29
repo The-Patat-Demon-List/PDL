@@ -1,0 +1,27 @@
+{
+    "id": 57322886,
+    "name": "owo uwu ewe rawr",
+    "author": "Zoroa",
+    "creators": [],
+    "verifier": "ZoroaN",
+    "verification": "https://youtu.be/KKClnEWZEgg?si=RFjPrFEHaDLs7kMI",
+    "percentToQualify": "84",
+    "enjoyment":9,
+    "difficulty":0,
+    "description": "",
+    "tags": [
+        "2.2",
+        "long",
+        "ship",
+        "gimmicky",
+        "chokepoints"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/KKClnEWZEgg?si=RFjPrFEHaDLs7kMI",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
