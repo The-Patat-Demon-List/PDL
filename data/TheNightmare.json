@@ -87,6 +87,13 @@
             "enjoyment":3,
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Rthegamer",
+            "link": "https://docs.google.com/document/d/1K8TGfzI7_KrCdfRMiEgace87BD9B08DQ8aY9ZveWjmw/edit?usp=sharing",
+            "percent": 100,
+            "enjoyment":7,
+            "hz": 240
         }
     ]
 }
