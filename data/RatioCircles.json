@@ -1,0 +1,25 @@
+{
+    "id": 77132030,
+    "name": "Ratio Circles",
+    "author": "ch4rlie03",
+    "creators": [],
+    "verifier": "ch4rlie03",
+    "verification": "https://youtu.be/IkCEE4oLh1c?si=h-etnIWwHEGW7ciZ",
+    "percentToQualify": "68",
+    "enjoyment":8,
+    "difficulty":0,
+    "description": "",
+    "tags": [
+        "2.1",
+        "medium",
+        "wave"
+    ],
+    "records": [
+                                {
+            "user": "Patat",
+            "link": "https://youtu.be/IkCEE4oLh1c?si=h-etnIWwHEGW7ciZ",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
