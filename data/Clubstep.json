@@ -86,11 +86,18 @@
             "percent": 100,
             "hz": 240
         },
-                        {
+        {
             "user": "typher",
             "link": "https://www.twitch.tv/videos/2070119988",
             "percent": 100,
             "enjoyment":7,
+            "hz": 240
+        },
+        {
+            "user": "Bandize",
+            "link": "https://youtu.be/h1dmU1EffQI",
+            "percent": 100,
+            "enjoyment":6,
             "hz": 240
         }
     ]

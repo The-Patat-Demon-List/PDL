@@ -65,6 +65,20 @@
             "percent": 100,
             "enjoyment":8,
             "hz": 240
+        },
+        {
+            "user": "Rthegamer",
+            "link": "https://docs.google.com/document/d/13syoybgrxRNAOzUERBl7qh2uINqKRf1xVMAcTfyGkc8/edit?pli=1&tab=t.0",
+            "percent": 100,
+            "enjoyment":8,
+            "hz": 240
+        },
+        {
+            "user": "Bandize",
+            "link": "https://youtu.be/1NfGfe0KJw4",
+            "percent": 100,
+            "enjoyment":8,
+            "hz": 240
         }
     ]
 }

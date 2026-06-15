@@ -15,10 +15,17 @@
         "wave"
     ],
     "records": [
-                                {
+        {
             "user": "Patat",
             "link": "https://youtu.be/IkCEE4oLh1c?si=h-etnIWwHEGW7ciZ",
             "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Cross",
+            "link": "https://drive.google.com/file/d/1k6HMUTAYvk4JoaPyPcLITnVqGdmfzTAR/view?usp=sharing",
+            "percent": 100,
+            "enjoyment":8,
             "hz": 240
         }
     ]

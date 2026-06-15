@@ -67,8 +67,15 @@
         {
             "user": "Tyrant",
             "link": "https://www.youtube.com/watch?v=UOf0qsujUfY",
-            "enjoyment":4,
             "percent": 100,
+            "enjoyment":4,
+            "hz": 240
+        },
+        {
+            "user": "Bandize",
+            "link": "https://youtu.be/3AszMKIuEPQ",
+            "percent": 100,
+            "enjoyment":10,
             "hz": 240
         }
     ]

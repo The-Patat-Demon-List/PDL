@@ -75,9 +75,23 @@
             "enjoyment":9,
             "hz": 240
         },
-                {
+        {
             "user": "typher",
             "link": "https://www.youtube.com/watch?v=qflbkRgm6Bc&t=2s",
+            "percent": 100,
+            "enjoyment":7,
+            "hz": 240
+        },
+        {
+            "user": "Milk",
+            "link": "https://cdn.discordapp.com/attachments/902127249082437633/1509213631466963095/image.png?ex=6a185c39&is=6a170ab9&hm=3842eb6acf0519eadbc09234945c580ace57199eea9e1219322f4c393e459787&",
+            "percent": 100,
+            "enjoyment":8,
+            "hz": 240
+        },
+        {
+            "user": "Bandize",
+            "link": "https://imgur.com/a/OzZVEqu",
             "percent": 100,
             "enjoyment":7,
             "hz": 240

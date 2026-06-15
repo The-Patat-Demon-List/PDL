@@ -64,9 +64,17 @@
             "enjoyment":5,
             "hz": 240
         },
-                {
+        {
             "user": "Chappo_82",
             "link": "https://drive.google.com/file/d/1TIjpCDw7v0yAvBCDXs9w3pUeZXbKc5sf/view?usp=sharing",
+            "percent": 100,
+            "enjoyment":9,
+            "hz": 240
+        }
+        ,
+        {
+            "user": "Akshajz",
+            "link": "https://www.youtube.com/watch?v=ImOr1wBNG_Q",
             "percent": 100,
             "enjoyment":9,
             "hz": 240
