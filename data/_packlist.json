@@ -54,9 +54,9 @@
             "PrinterNoises",
             "B",
             "LivingOpen",
+            "Potal",
             "InaBlinkOfAnEye",
-            "Kiln",
-            "ModernNredom"
+            "Kiln"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 50, 213, 1) 0%, rgba(171, 41, 145, 1) 93%)"
     },

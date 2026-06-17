@@ -1,0 +1,27 @@
+{
+    "id": 61417747,
+    "name": "Potal",
+    "author": "Sillow",
+    "creators": [],
+    "verifier": "Sillow",
+    "verification": "https://youtu.be/ILkOvJ8CrnM?si=flsmHFbT-P0e3AZC",
+    "percentToQualify": "74",
+    "enjoyment":9,
+    "difficulty":1,
+    "description": "The cake is a lie",
+    "tags": [
+        "2.1",
+        "long",
+        "wave",
+        "highcps",
+        "timings"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/ILkOvJ8CrnM?si=flsmHFbT-P0e3AZC",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
