@@ -42,7 +42,6 @@
             "TidalLocked",
             "InaBlinkOfAnEye",
             "LiveWire",
-            "EternalNight",
             "PearlWave",
             "iSpyWithMyLittleB"
         ],
@@ -173,7 +172,8 @@
             "TidalLocked",
             "Amethyst",
             "LivingOpen",
-            "LiveWire"
+            "LiveWire",
+            "EternalNight"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 166, 0, 1) 0%, rgba(247, 255, 94, 1) 100%)"
     },
