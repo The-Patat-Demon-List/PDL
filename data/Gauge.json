@@ -1,0 +1,25 @@
+{
+    "id": 141152291,
+    "name": "Gauge",
+    "author": "7rodo",
+    "creators": [],
+    "verifier": "7rodo",
+    "verification": "https://youtu.be/LYLwpu-SWh4?si=dIGsmocY69Bdb8C8",
+    "percentToQualify": "100",
+    "enjoyment":7,
+    "difficulty":1,
+    "description": "",
+    "tags": [
+        "platformer",
+        "ball",
+        "gimmicky"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/LYLwpu-SWh4?si=dIGsmocY69Bdb8C8",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
