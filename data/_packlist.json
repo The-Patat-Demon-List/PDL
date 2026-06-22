@@ -175,7 +175,8 @@
             "Amethyst",
             "LivingOpen",
             "LiveWire",
-            "EternalNight"
+            "EternalNight",
+            "GTAZ"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 166, 0, 1) 0%, rgba(247, 255, 94, 1) 100%)"
     },
@@ -221,7 +222,8 @@
             "Wavescapes",
             "Deadlocked",
             "BlackfireBackfire",
-            "Unite"
+            "Unite",
+            "GTAZ"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 208, 0, 1) 0%, rgba(153, 135, 0, 1) 100%)"
     },
