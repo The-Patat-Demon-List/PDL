@@ -147,6 +147,7 @@
         "levels": [
         "SkeletalShenanigans",
         "B",
+        "BlackfireBackfire",
         "DJWolf",
         "iSpyWithMyLittleEye",
         "iSpyWithMyLittleB"
@@ -219,6 +220,7 @@
             "LittleThingy",
             "Wavescapes",
             "Deadlocked",
+            "BlackfireBackfire",
             "Unite"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 208, 0, 1) 0%, rgba(153, 135, 0, 1) 100%)"

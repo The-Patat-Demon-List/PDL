@@ -1,0 +1,25 @@
+{
+    "id": 143231051,
+    "name": "Blackfire Backfire",
+    "author": "kira9999",
+    "creators": [],
+    "verifier": "kira9999",
+    "verification": "https://youtu.be/W0Mc9Jjl9lg?si=ZkdwWh-Mae998g7u",
+    "percentToQualify": "44",
+    "enjoyment":10,
+    "difficulty":0,
+    "description": "",
+    "tags": [
+        "2.2",
+        "learny",
+        "nervecontrol"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/W0Mc9Jjl9lg?si=ZkdwWh-Mae998g7u",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
