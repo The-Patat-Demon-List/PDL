@@ -66,11 +66,25 @@
             "enjoyment":10,
             "hz": 240
         },
-                        {
+        {
             "user": "typher",
             "link": "https://www.youtube.com/watch?v=-gHsiMA1OD4&t=155s",
             "percent": 100,
             "enjoyment":6,
+            "hz": 240
+        },
+        {
+            "user": "Chappo_82",
+            "link": "https://drive.google.com/file/d/1gLbj5uJ_vCv8dl8SFvKUy1O4ZqQSN2vL/view?usp=sharing",
+            "percent": 100,
+            "enjoyment":6,
+            "hz": 240
+        },
+        {
+            "user": "MewtrixGD",
+            "link": "https://cdn.discordapp.com/attachments/1473700604139540541/1517305348682289303/Screenshot_2026-06-18_at_6.05.38_PM.png?ex=6a35cc39&is=6a347ab9&hm=827c128007a47c1764025eb2327cbb7f2102d8df42781153a54ef34aef2f5572&",
+            "percent": 100,
+            "enjoyment":8,
             "hz": 240
         }
     ]

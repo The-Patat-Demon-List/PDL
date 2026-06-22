@@ -20,33 +20,33 @@
         "memory"
     ],
     "records": [
-                        {
+        {
             "user": "Patat",
             "link": "https://youtube.com/live/jG1wPeBOu-8?feature=share",
             "percent": 100,
             "hz": 240
         },
-                                                {
+        {
             "user": "Cross",
             "link": "https://drive.google.com/file/d/1L9LiN4aGIY9ajLGiPrkx6ZSYCevWkoPK/view",
             "percent": 100,
             "enjoyment":4,
             "hz": 240
         },
-                                                        {
+        {
             "user": "DiamondNovabeast",
             "link": "https://drive.google.com/file/d/1GUQZAq6rDGB8_GZF4K3vOk_eB_UbPnju/view",
             "percent": 100,
             "enjoyment":6,
             "hz": 240
         },
-                                                        {
+        {
             "user": "Deretu :3",
             "link": "https://cdn.discordapp.com/attachments/1425772342931619983/1495491671243231353/20260419202943_1.jpg?ex=69e670a7&is=69e51f27&hm=d17d63cd3fffc136c2a50347bf14c6c5ac56bc3fe2ca2ac4ef7cb0cff45e23f8&",
             "percent": 100,
             "hz": 240
         },
-                                                        {
+        {
             "user": "aitra",
             "link": "https://medal.tv/games/geometry-dash/clips/mB0oHNGf8l2nPJdfP?invite=cr-MSxSQnAsNjE3MzU0ODQ2&v=96",
             "percent": 100,
@@ -70,6 +70,13 @@
             "user": "Tyrant",
             "link": "https://gyazo.com/f59deb7c90ad8664947e58ea36657430",
             "enjoyment":8,
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Chappo_82",
+            "link": "https://drive.google.com/file/d/1U0iN10ONfaVJA49sIjOephSn-HGTsdRV/view?usp=sharing",
+            "enjoyment":6,
             "percent": 100,
             "hz": 240
         }

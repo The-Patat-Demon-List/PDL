@@ -16,7 +16,7 @@
         "gimmicky"
     ],
     "records": [
-                {
+        {
             "user": "Patat",
             "link": "https://youtu.be/Ik3t3kdiG8M",
             "percent": 100,
@@ -32,6 +32,13 @@
         {
             "user": "Cross",
             "link": "https://drive.google.com/file/d/1J-h1Qgn5R9U1P9YTe5ooQhOLapAMdCU2/view?usp=sharing",
+            "percent": 100,
+            "enjoyment":8,
+            "hz": 240
+        },
+        {
+            "user": "Metronite",
+            "link": "https://discord.com/channels/1425772341886976137/1473700604139540541/1517251904332234825",
             "percent": 100,
             "enjoyment":8,
             "hz": 240

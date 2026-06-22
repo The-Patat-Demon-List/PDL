@@ -71,6 +71,13 @@
             "link": "https://drive.google.com/file/d/1_bOb0ejwHjNwABdvR0FF669WAK8mOke0/view",
             "percent": 90,
             "hz": 240
+        },
+        {
+            "user": "Bandize",
+            "link": "https://youtu.be/3heYtb7JD-U",
+            "percent": 100,
+            "enjoyment": 10,
+            "hz": 240
         }
     ]
 }
