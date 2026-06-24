@@ -1,0 +1,27 @@
+{
+    "id": 134645078,
+    "name": "Shitty Promethean",
+    "author": "AcropolisBoy",
+    "creators": [],
+    "verifier": "Fe4rcasp",
+    "verification": "https://youtu.be/puvD6Hz5Yec?si=gc3pNLGEqWc0SodK",
+    "percentToQualify": "82",
+    "enjoyment":8,
+    "difficulty":0,
+    "description": "Feels the aura",
+    "tags": [
+        "2.1",
+        "medium",
+        "wave",
+        "ship",
+        "chokepoints"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/puvD6Hz5Yec?si=gc3pNLGEqWc0SodK",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
