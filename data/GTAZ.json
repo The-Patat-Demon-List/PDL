@@ -27,6 +27,13 @@
             "percent": 100,
             "enjoyment": 10,
             "hz": 240
+        },
+        {
+            "user": "Milk",
+            "link": "https://cdn.discordapp.com/attachments/902127249082437633/1518871745556123778/image.png?ex=6a3b7f0b&is=6a3a2d8b&hm=cca4fb20f7ba50b3d5501da46c619a26bd1d0316bdda85389491b6773578eb8f&",
+            "percent": 100,
+            "enjoyment": 10,
+            "hz": 240
         }
     ]
 }
