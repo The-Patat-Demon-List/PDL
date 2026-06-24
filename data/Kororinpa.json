@@ -1,0 +1,26 @@
+{
+    "id": 86522027,
+    "name": "Korornpa",
+    "author": "MarkyArchived",
+    "creators": [],
+    "verifier": "MarkyArchived",
+    "verification": "https://youtu.be/m9iTFg4wtpk?si=xztlGcuMGjKNaiSA",
+    "percentToQualify": "76",
+    "enjoyment":10,
+    "difficulty":0,
+    "description": "First 2 Player level lol",
+    "tags": [
+        "2.2",
+        "long",
+        "wave",
+        "duals"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/cGu4Z3_Kwrs?si=BaO-Zh8vnbbaDZyz",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
