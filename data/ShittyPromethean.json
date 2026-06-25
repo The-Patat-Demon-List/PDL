@@ -22,6 +22,20 @@
             "link": "https://youtu.be/puvD6Hz5Yec?si=gc3pNLGEqWc0SodK",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "Cross",
+            "link": "https://drive.google.com/file/d/1upBOsz7LppeHOy7T4U4_6Epq3qeG8JES/view?usp=sharing",
+            "percent": 100,
+            "enjoyment": 7,
+            "hz": 240
+        },
+        {
+            "user": "Chappo_82",
+            "link": "https://drive.google.com/file/d/1wik39IHR90cwWLJoCsr4_q6GFK7QYg5y/view?usp=sharing",
+            "percent": 100,
+            "enjoyment": 10,
+            "hz": 240
         }
     ]
 }

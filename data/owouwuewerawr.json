@@ -27,7 +27,14 @@
             "user": "Cross",
             "link": "https://drive.google.com/file/d/1bJe45oW5gLGw_yiKgxylkuoMuNiU1-QE/view?usp=sharing",
             "percent": 100,
-            "enjoyment":5,
+            "enjoyment": 5,
+            "hz": 240
+        },
+        {
+            "user": "Golden",
+            "link": "http://youtube.com/post/UgkxOQ6yIe5sOT5GJU0bKZJEwZkkgEUWWuXS",
+            "percent": 100,
+            "enjoyment": 10,
             "hz": 240
         }
     ]
