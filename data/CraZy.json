@@ -35,21 +35,21 @@
             "user": "Cross",
             "link": "https://youtu.be/-7CDQgp-qLM",
             "percent": 100,
-            "enjoyment":7,
+            "enjoyment": 7,
             "hz": 240
         },
                                {
             "user": "DiamondNovabeast",
             "link": "https://youtu.be/5TM6vqecUW0",
             "percent": 100,
-            "enjoyment":6,
+            "enjoyment": 6,
             "hz": 240
         },
         {
             "user": "Metronite",
             "link": "https://medal.tv/games/geometry-dash/clips/mzOsfjjzxPB4VtMMj?invite=cr-MSxzbG0sNDQ2ODY3MjM5",
             "percent": 100,
-            "enjoyment":9,
+            "enjoyment": 9,
             "hz": 240
         },
                                {
@@ -68,14 +68,21 @@
             "user": "Tyrant",
             "link": "https://www.youtube.com/watch?v=UOf0qsujUfY",
             "percent": 100,
-            "enjoyment":4,
+            "enjoyment": 4,
             "hz": 240
         },
         {
             "user": "Bandize",
             "link": "https://youtu.be/3AszMKIuEPQ",
             "percent": 100,
-            "enjoyment":10,
+            "enjoyment": 10,
+            "hz": 240
+        },
+        {
+            "user": "Chappo_82",
+            "link": "https://drive.google.com/file/d/11Ez5kXyjRQwfsyxd6gLxshGCZfqxikUN/view?usp=sharing",
+            "percent": 100,
+            "enjoyment": 5,
             "hz": 240
         }
     ]
