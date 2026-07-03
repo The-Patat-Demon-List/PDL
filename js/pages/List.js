@@ -25,7 +25,8 @@ export default {
                 <table class="list" v-if="list">
                     <tr v-for="([level, err], i) in list">
                         <td class="rank">
-                            <p v-if="i + 1 <= 100" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="level.rank == null" class="type-label-lg">&mdash;</p>
+                            <p v-else-if="i + 1 <= 100" class="type-label-lg">#{{ level.rank }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == i, 'error': !level }">
@@ -229,17 +230,26 @@ export default {
     methods: {
         embed,
         score,
-        getDemonRating(){
+        getDemonRating() {
             const currentLevel = this.level;
-            if (!currentLevel || typeof currentLevel.difficulty === 'undefined') {
-                return '';
+            if (
+                !currentLevel ||
+                typeof currentLevel.difficulty === "undefined"
+            ) {
+                return "";
             }
-            const difficultyNames = ["Demon0", "Demon1", "Demon2", "Demon3", "Demon4"];
+            const difficultyNames = [
+                "Demon0",
+                "Demon1",
+                "Demon2",
+                "Demon3",
+                "Demon4",
+            ];
             if (difficultyNames[currentLevel.difficulty] + 1) {
                 const name = difficultyNames[currentLevel.difficulty];
                 return `/assets/${name}.png`;
             }
-            return '';
+            return "";
         },
     },
 };

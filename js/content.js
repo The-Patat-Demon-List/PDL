@@ -5,17 +5,27 @@ import { round, score } from './score.js';
  */
 const dir = '/data';
 
+const benchmarker = "_"
+
 export async function fetchList() {
     const listResult = await fetch(`${dir}/_list.json`);
     const packlist = await fetchPacks();
     const tagslist = await fetchTags();
     try {
         const list = await listResult.json();
+
+        const ranksEntries = list
+            .filter((path) => !path.startsWith(benchmarker))
+            .map((path, index) => [path, index + 1]);
+        const ranks = Object.fromEntries(ranksEntries);
+
         return await Promise.all(
-            list.map(async (path, rank) => {
-                const levelResult = await fetch(`${dir}/${path}.json`);
+            list.map(async (path) => {
+                const rank = ranks[path] || null;
                 try {
+                    const levelResult = await fetch(`${dir}/${path}.json`,);
                     const level = await levelResult.json();
+                    
                     if (level.tags) {
                         level.tags = level.tags.map((tag) => tagslist[tag]);
                     }
@@ -24,6 +34,7 @@ export async function fetchList() {
                     return [
                         {
                             ...level,
+                            rank,
                             path,
                             records: level.records.sort(
                                 (a, b) => b.percent - a.percent,
