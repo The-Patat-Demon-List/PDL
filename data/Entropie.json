@@ -1,0 +1,26 @@
+{
+    "id": 143308401,
+    "name": "entropie",
+    "author": "empsea",
+    "creators": [],
+    "verifier": "empsea",
+    "verification": "https://youtu.be/dFI8pEitf9M?si=ac3o6iqx57PC0Vm2",
+    "percentToQualify": "70",
+    "enjoyment":10,
+    "difficulty":0,
+    "description": "2 top 1s in 1 day bro",
+    "tags": [
+        "2.2",
+        "xl",
+        "wave",
+        "flow"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/dFI8pEitf9M?si=ac3o6iqx57PC0Vm2",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

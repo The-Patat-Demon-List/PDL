@@ -127,7 +127,8 @@
           "Himari",
           "Phjork",
           "SeaHunter",
-          "DigitalZ"
+          "DigitalZ",
+          "FunvilleArcade"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 0, 187, 1) 0%, rgba(255, 0, 38, 1) 100%)"
     },
@@ -139,7 +140,7 @@
            "Fratura",
            "Amethyst",
            "NoelElectra",
-           "FunvilleArcade"
+           "Entropie"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 0, 38, 1) 0%, rgba(122, 0, 0, 1) 100%)"
     },
@@ -199,6 +200,7 @@
             "ImaginalSeasons",
             "Wavescapes",
             "Static",
+            "Entropie",
             "CastleRock",
             "Shristal",
             "Unite"
@@ -224,6 +226,7 @@
             "Wavescapes",
             "Deadlocked",
             "BlackfireBackfire",
+            "Entropie",
             "Unite",
             "Kororinpa",
             "GTAZ"
