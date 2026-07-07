@@ -1,0 +1,27 @@
+{
+    "id": 143332913,
+    "name": "Pain engine",
+    "author": "wapon77",
+    "creators": [],
+    "verifier": "wapon77",
+    "verification": "",
+    "percentToQualify": "87",
+    "enjoyment":2,
+    "difficulty":0,
+    "description": "It def lives up to its name",
+    "tags": [
+        "2.2",
+        "long",
+        "ship",
+        "chokepoints",
+        "timings"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
