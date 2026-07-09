@@ -1,0 +1,26 @@
+{
+    "id": 121339417,
+    "name": "Fat Donkey",
+    "author": "DwcA",
+    "creators": [],
+    "verifier": "DwcA",
+    "verification": "https://youtu.be/yM7OxuqX4uE?si=mb_3mKdLS3sXPH0J",
+    "percentToQualify": "68",
+    "enjoyment":10,
+    "difficulty":0,
+    "description": "Fatass like diamond",
+    "tags": [
+        "2.2",
+        "long",
+        "dual",
+        "learny"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/yM7OxuqX4uE?si=mb_3mKdLS3sXPH0J",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
