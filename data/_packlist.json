@@ -190,6 +190,7 @@
             "BlueHell",
             "SunkenPolis",
             "SeaHunter",
+            "TropicalCollage",
             "RagingRapids"
         ],
         "colour": "linear-gradient(115deg,rgba(0, 195, 235, 1) 0%, rgba(0, 76, 255, 1) 100%)"
@@ -203,6 +204,7 @@
             "Entropie",
             "CastleRock",
             "Shristal",
+            "TropicalCollage",
             "Unite"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 239, 189, 1) 0%, rgba(255, 189, 232, 1) 100%)"

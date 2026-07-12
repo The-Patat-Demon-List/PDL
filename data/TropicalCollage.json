@@ -1,0 +1,27 @@
+{
+    "id": 143456427,
+    "name": "Tropcal Collage",
+    "author": "MrFunnyManX",
+    "creators": [],
+    "verifier": "MrFunnyManX",
+    "verification": "https://youtu.be/kTh5RiZTZhI?si=rDXZXyz_TA9ErMQ7",
+    "percentToQualify": "79",
+    "enjoyment":9,
+    "difficulty":0,
+    "description": "shes drinking pina coladas",
+    "tags": [
+        "2.2",
+        "long",
+        "ship",
+        "swing",
+        "chokepoints"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/kTh5RiZTZhI?si=rDXZXyz_TA9ErMQ7",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
