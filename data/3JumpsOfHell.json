@@ -1,0 +1,27 @@
+{
+    "id": 143360942,
+    "name": "3 jumps of hell",
+    "author": "Roulxkaard",
+    "creators": [],
+    "verifier": "Roulxkaard",
+    "verification": "https://youtu.be/La8dXMUA_lY?si=ZBMyX1i8FmsMsT4A",
+    "percentToQualify": "78",
+    "enjoyment":4,
+    "difficulty":0,
+    "description": "You are ready now",
+    "tags": [
+        "2.2",
+        "medium",
+        "cube",
+        "timings",
+        "nervecontrol"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/W3lvhfrE1S8?si=9kPnn0h6tRZTBzMW",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
