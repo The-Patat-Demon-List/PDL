@@ -1,0 +1,28 @@
+{
+    "id": 139469097,
+    "name": "24",
+    "author": "GrowingInsane",
+    "creators": [],
+    "verifier": "GrowingInsane",
+    "verification": "https://youtu.be/dYi54KVuugc?si=v6alhCx8tw2mtGib",
+    "percentToQualify": "80",
+    "enjoyment":10,
+    "difficulty":0,
+    "description": "25",
+    "tags": [
+        "2.2",
+        "long",
+        "duals",
+        "learny",
+        "nervecontrol",
+        "flow"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/dYi54KVuugc?si=v6alhCx8tw2mtGib",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
