@@ -1,0 +1,27 @@
+{
+    "id": 144489282,
+    "name": "Anomaly Impact",
+    "author": "shodai1128",
+    "creators": [],
+    "verifier": "shodai1128",
+    "verification": "https://youtu.be/bTX73LLbYgA?si=_PWKxgsstwL13WMy",
+    "percentToQualify": "78",
+    "enjoyment":8,
+    "difficulty":0,
+    "description": "creo reference",
+    "tags": [
+        "2.2",
+        "xl",
+        "spider",
+        "timings",
+        "nervecontrol"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/bTX73LLbYgA?si=_PWKxgsstwL13WMy",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
