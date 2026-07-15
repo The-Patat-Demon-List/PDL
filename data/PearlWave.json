@@ -29,11 +29,18 @@
             "enjoyment":8,
             "hz": 240
         },
-                {
+        {
             "user": "DD",
             "link": "https://youtu.be/1GP7Aw454J0",
             "percent": 100,
             "enjoyment":7,
+            "hz": 240
+        },
+        {
+            "user": "typher",
+            "link": "https://drive.google.com/file/d/1VUbcwExCxvE3eG0SHtJVN4KfvxfssS8T/view?usp=drive_link",
+            "percent": 100,
+            "enjoyment":6,
             "hz": 240
         }
     ]
