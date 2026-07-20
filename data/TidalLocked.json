@@ -67,6 +67,13 @@
             "percent": 100,
             "enjoyment": 9,
             "hz": 240
+        },
+        {
+            "user": "typher",
+            "link": "https://drive.google.com/file/d/1SoorCfmIRBPG5AqZCB7OKpCmfWohvhPl/view?usp=drive_link",
+            "percent": 100,
+            "enjoyment": 4,
+            "hz": 240
         }
     ]
 }
