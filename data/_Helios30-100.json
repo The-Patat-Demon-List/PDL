@@ -1,0 +1,22 @@
+{
+    "id": 71728635,
+    "name": "Helios 30-100",
+    "author": "Canonlaw",
+    "creators": [],
+    "verifier": "Canonlaw",
+    "verification": "",
+    "percentToQualify": "https://youtube.com/live/jG1wPeBOu-8?feature=share",
+    "enjoyment":3,
+    "difficulty":4,
+    "description": "14k attempts",
+    "tags": [
+    ],
+    "records": [
+               {
+            "user": "Patat",
+            "link": "https://youtube.com/live/jG1wPeBOu-8?feature=share",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
