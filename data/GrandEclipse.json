@@ -1,0 +1,26 @@
+{
+    "id": 126368623,
+    "name": "Grand Eclipse",
+    "author": "BloomOcean",
+    "creators": "",
+    "verifier": "ivyteal",
+    "verification": "https://youtu.be/JFq_O9d4L3s?is=etos-8bmNqqj04IW",
+    "percentToQualify": 75,
+    "enjoyment":10,
+    "difficulty":4,
+    "description": "This is the most consistent level oat",
+    "tags":[
+        "2.2",
+        "xl",
+        "flow",
+        "learny"
+    ],
+    "records": [
+        {
+            "user": "Patat",
+            "link": "https://youtu.be/D8Hlbe5nGGc?si=hpgeuNpBxAZYoPqi",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

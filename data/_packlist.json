@@ -13,6 +13,7 @@
     {
         "name": "Patat's Hardests Pack II",
         "levels": [
+            "GrandEclipse",
             "Sephtis",
             "Arcane",
             "LittleThingy",
@@ -136,6 +137,7 @@
         {
         "name": "Flow Pack II",
         "levels": [
+            "GrandEclipse",
            "Sephtis",
            "Arcane",
            "Fratura",
@@ -226,6 +228,7 @@
             {
         "name": "Perfect Pack",
         "levels": [
+            "GrandEclipse",
             "Arcane",
             "Firstfantasy",
             "LittleThingy",
