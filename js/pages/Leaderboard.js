@@ -54,12 +54,13 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.verified">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p v-if="score.rank != null">#{{ score.rank }}</p>
+                                    <p v-else>-</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
                                 </td>
-                                <td class="score">
+                                <td v-if="score.score > 0.0" class="score">
                                     <p>+{{ localize(score.score) }}</p>
                                 </td>
                             </tr>
@@ -68,7 +69,8 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.completed">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p v-if="score.rank != null">#{{ score.rank }}</p>
+                                    <p v-else>-</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.level }}</a>
@@ -79,7 +81,7 @@ export default {
                                 <p v-else>{{ score.levelEnjoyment != null ? score.levelEnjoyment + '/10' : '' }}</p>
                                 </td>
 
-                                <td class="score">
+                                <td v-if="score.score > 0.0" class="score">
                                     <p>+{{ localize(score.score) }}</p>
                                 </td>
                             </tr>
@@ -88,12 +90,13 @@ export default {
                         <table class="table">
                             <tr v-for="score in entry.progressed">
                                 <td class="rank">
-                                    <p>#{{ score.rank }}</p>
+                                    <p v-if="score.rank != null">#{{ score.rank }}</p>
+                                    <p v-else>-</p>
                                 </td>
                                 <td class="level">
                                     <a class="type-label-lg" target="_blank" :href="score.link">{{ score.percent }}% {{ score.level }}</a>
                                 </td>
-                                <td class="score">
+                                <td v-if="score.score > 0.0" class="score">
                                     <p>+{{ localize(score.score) }}</p>
                                 </td>
                             </tr>
