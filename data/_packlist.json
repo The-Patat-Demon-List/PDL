@@ -34,6 +34,15 @@
         "colour": "linear-gradient(115deg,rgba(0, 255, 255, 1) 0%, rgba(0, 99, 99, 1) 100%)"
     },
     {
+        "name": "Verified By Patat Pack",
+        "levels": [
+            "PaintedGalaxy",
+            "EruptionOld",
+            "Firstfantasy"
+        ],
+        "colour": "linear-gradient(115deg,rgba(255, 203, 15, 1) 0%, rgba(199, 0, 119, 1) 100%);"
+    },
+    {
         "name": "Unrated Pack",
         "levels": [
             "EruptionOld",
@@ -49,33 +58,6 @@
             "iSpyWithMyLittleB"
         ],
         "colour": "linear-gradient(115deg,rgba(255, 255, 255, 1) 0%, rgba(200, 200, 200, 1) 100%)"
-    },
-        {
-        "name": "Medium Demon Pack I",
-        "levels": [
-            "SkeletalShenanigans",
-            "PrinterNoises",
-            "B",
-            "LivingOpen",
-            "Potal",
-            "InaBlinkOfAnEye",
-            "Kiln"
-        ],
-        "colour": "linear-gradient(115deg,rgba(255, 50, 213, 1) 0%, rgba(171, 41, 145, 1) 93%)"
-    },
-    {    
-         "name": "Medium Demon Pack II",
-        "levels": [
-            "JamFactory",
-            "Static",
-            "Wavescapes",
-            "DeepDive",
-            "Fratura",
-            "TidalLocked",
-            "Charge",
-            "Amethyst"
-        ],
-        "colour": "linear-gradient(115deg,rgba(194, 50, 255, 1) 0%, rgba(127, 32, 168, 1) 93%)"
     },     
     {
         "name": "Hard Demon Pack",
@@ -139,6 +121,7 @@
         "levels": [
             "GrandEclipse",
            "Sephtis",
+           "PaintedGalaxy",
            "Arcane",
            "Fratura",
            "Amethyst",
