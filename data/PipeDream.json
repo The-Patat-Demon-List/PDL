@@ -1,0 +1,27 @@
+{
+    "id": 139130794,
+    "name": "Pipe Dream",
+    "author": "Bonsow",
+    "creators": [],
+    "verifier": "Bonsow",
+    "verification": "https://youtu.be/QJDNy8_fbU4?si=JqFuPLNQoE3HhziK",
+    "percentToQualify": "60",
+    "enjoyment":10,
+    "difficulty":3,
+    "description": "Beaten for Heatwave 2026",
+    "tags": [
+        "2.2",
+        "xl",
+        "duals",
+        "timings",
+        "nervecontrol"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/gKixM8PQGmI",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}

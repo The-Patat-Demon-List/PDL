@@ -186,6 +186,7 @@
         {
         "name": "Atmospheric Pack",
         "levels": [
+            "PipeDream",
             "ImaginalSeasons",
             "Wavescapes",
             "Static",
@@ -214,6 +215,7 @@
         "levels": [
             "GrandEclipse",
             "Arcane",
+            "PipeDream",
             "Firstfantasy",
             "LittleThingy",
             "Wavescapes",
