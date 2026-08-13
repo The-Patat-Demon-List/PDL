@@ -2,7 +2,7 @@
     "id": 146486498,
     "name": "Painted Galaxy",
     "author": "xGelly",
-    "creators": [],
+    "creators": ["xGelly, Texic, and more"],
     "verifier": "Patat",
     "verification": "https://youtu.be/5y8zY718JZE?si=ojPlKjiK9O4pibDq",
     "percentToQualify": 74,
@@ -18,6 +18,10 @@
     ],
     "records": [
         {
+             "user": "Patat",
+            "link": "https://youtu.be/5y8zY718JZE?si=ojPlKjiK9O4pibDq",
+            "percent": 100,
+            "hz": 240
         }
     ]
 }
