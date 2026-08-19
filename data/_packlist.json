@@ -105,32 +105,17 @@
         ],
         "colour": "linear-gradient(115deg,rgba(255, 255, 255, 1) 0%, rgba(199, 0, 0, 1) 100%)"
     },
-        {
-        "name": "Flow Pack I",
-        "levels": [
-          "LiveWire",
-          "Himari",
-          "Phjork",
-          "SeaHunter",
-          "DigitalZ",
-          "FunvilleArcade"
-        ],
-        "colour": "linear-gradient(115deg,rgba(255, 0, 187, 1) 0%, rgba(255, 0, 38, 1) 100%)"
-    },
-        {
-        "name": "Flow Pack II",
-        "levels": [
-            "GrandEclipse",
-           "Sephtis",
-           "PaintedGalaxy",
-           "Arcane",
-           "Fratura",
-           "Amethyst",
-           "NoelElectra",
-           "Entropie"
-        ],
-        "colour": "linear-gradient(115deg,rgba(255, 0, 38, 1) 0%, rgba(122, 0, 0, 1) 100%)"
-    },
+{
+    "name": "Memory Pack",
+    "levels": [
+        "TrollMadness",
+        "AsIfDefyingHeaven",
+        "TheLightningRoad"
+
+
+    ],
+    "colour": "linear-gradient(115deg,rgba(148, 248, 255, 1) 0%, rgba(199, 0, 119, 0) 100%)"
+},
         {
         "name": "Bossfight Pack",
         "levels": [
