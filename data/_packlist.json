@@ -2,6 +2,7 @@
     {
         "name": "Patat's Hardests Pack I",
         "levels": [
+            "SkeletalShenanigans",
             "Deadlocked",
             "Himari",
             "Unite",
@@ -13,12 +14,12 @@
     {
         "name": "Patat's Hardests Pack II",
         "levels": [
-            "GrandEclipse",
+            "Empyrean",
             "Sephtis",
+            "GrandEclipse",
             "Arcane",
             "LittleThingy",
-            "ImaginalSeasons",
-            "SkeletalShenanigans"
+            "ImaginalSeasons"
         ],
         "colour": "linear-gradient(115deg,rgba(179, 21, 92, 1) 0%, rgba(79, 10, 45, 1) 100%)"
     },
@@ -197,6 +198,7 @@
             {
         "name": "Perfect Pack",
         "levels": [
+            "Empyrean",
             "GrandEclipse",
             "Arcane",
             "PipeDream",

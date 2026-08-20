@@ -1,0 +1,29 @@
+{
+    "id": 126368623,
+    "name": "Empyrean",
+    "author": "Kivvvi",
+    "creators": "",
+    "verifier": "初音ミク",
+    "verification": "https://youtu.be/fS_znr04rpc",
+    "percentToQualify": 73,
+    "enjoyment":10,
+    "difficulty":4,
+    "description": "One of my favourite extremes ever and first top 1000",
+    "tags":[
+        "2.1",
+        "long",
+        "flow",
+        "learny",
+        "clicksync",
+        "timings",
+        "nervecontrol"
+    ],
+    "records": [
+        {
+            "user": "Patat",
+            "link": "https://youtu.be/OHp4JGWD5rE",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
