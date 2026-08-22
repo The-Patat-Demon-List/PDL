@@ -89,6 +89,7 @@
        "name": "Deadlocked and Friends",
         "levels": [
             "TidalLocked",
+            "Drawlocked",
             "LivingOpen",
             "Deadlocked"
 
@@ -121,6 +122,9 @@
         "levels": [
         "SkeletalShenanigans",
         "B",
+        "Drawlocked",
+        "LivingOpen",
+        "Deadlocked",
         "BlackfireBackfire",
         "DJWolf",
         "iSpyWithMyLittleEye",
@@ -147,6 +151,7 @@
             "Wavescapes",
             "TidalLocked",
             "Amethyst",
+            "Drawlocked",
             "LivingOpen",
             "3JumpsOfHell",
             "LiveWire",
