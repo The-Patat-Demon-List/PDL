@@ -1,0 +1,28 @@
+{
+    "id": 127305966,
+    "name": "Painted Galaxy",
+    "author": "ChloeChu",
+    "creators": ["Chloechu, Devilmine, Gruzy, Tfor1, Ice Rod"],
+    "verifier": "Patat",
+    "verification": "https://youtu.be/ngNeuF2u9so?si=xvf0eP4uSappHbt9",
+    "percentToQualify": 68,
+    "enjoyment":6,
+    "difficulty":4,
+    "description": "died to the last ship twice btw",
+    "tags":[
+        "2.2",
+        "swing",
+        "long",
+        "flow",
+        "learny",
+        "chokepoints"
+    ],
+    "records": [
+               {
+            "user": "Patat",
+            "link": "https://youtu.be/g9yG6b5SI-Q",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
