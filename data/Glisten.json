@@ -1,0 +1,29 @@
+{
+    "id": 74924716,
+    "name": "Glisten",
+    "author": "Squizaaard",
+    "creators": "Onvil ovdfo RatQuesadilla Squizaaard xyuns",
+    "verifier": "Solus",
+    "verification": "https://youtu.be/xL_0WkFxKeM?si=LGyHcDJ_7xX7HRAa",
+    "percentToQualify": 75,
+    "enjoyment":0.1,
+    "difficulty":4,
+    "description": "???",
+    "tags":[
+        "2.1",
+        "medium",
+        "ball",
+        "spider",
+        "learny",
+        "clicksync",
+        "timings"
+    ],
+    "records": [
+        {
+            "user": "Patat",
+            "link": "https://youtu.be/nIo3di_YX2Y",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
