@@ -1,0 +1,29 @@
+{
+    "id": 74924716,
+    "name": "My Worst Level",
+    "author": "MrPoopyBurger",
+    "creators": "",
+    "verifier": "MrPoopyBurger",
+    "verification": "https://youtu.be/x0IeNND6ckI?si=kYuAqGzFX1G0rgnX",
+    "percentToQualify": 79,
+    "enjoyment":7,
+    "difficulty":4,
+    "description": "Patat's Recommendation for a first extreme",
+    "tags":[
+        "2.2",
+        "long",
+        "wave",
+        "chokepoints",
+        "learny",
+        "clicksync",
+        "timings"
+    ],
+    "records": [
+        {
+            "user": "Patat",
+            "link": "https://youtu.be/jqE32IhZ64c",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
