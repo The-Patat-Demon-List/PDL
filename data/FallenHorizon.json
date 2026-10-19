@@ -18,9 +18,16 @@
         "chokepoints"
     ],
     "records": [
-               {
+       {
             "user": "Patat",
             "link": "https://youtu.be/g9yG6b5SI-Q",
+            "percent": 100,
+            "hz": 240
+        },      
+        {
+            "user": "NightshadeOwO",
+            "link": "https://www.youtube.com/watch?v=GijDOxq6Mjs",
+            "enjoyment":3,
             "percent": 100,
             "hz": 240
         }
