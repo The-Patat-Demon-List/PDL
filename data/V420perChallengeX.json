@@ -50,6 +50,13 @@
             "percent": 100,
             "enjoyment":5,
             "hz": 240
+        },
+        {
+            "user": "Chappo_82",
+            "link": "https://drive.google.com/file/d/1ZHTGjnti9ajkAPt8nArdhSHiYIV6R_SM/view?usp=sharing",
+            "percent": 100,
+            "enjoyment":8,
+            "hz": 240
         }
     ]
 }
