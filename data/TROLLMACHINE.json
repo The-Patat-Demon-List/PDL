@@ -1,0 +1,28 @@
+{
+    "id": 84325817,
+    "name": "TROLLMACHINE",
+    "author": "TROLLM4CHINE",
+    "creators": "",
+    "verifier": ">x<",
+    "verification": "https://youtu.be/VSw1c3L8szo?si=XEHDaIQmFQekGzUz",
+    "percentToQualify": 76,
+    "enjoyment":7,
+    "difficulty":4,
+    "description": "Feels The Aura",
+    "tags":[
+        "2.1",
+        "xl",
+        "flow",
+        "clicksync",
+        "chokepoints",
+        "learny"
+    ],
+    "records": [
+        {
+            "user": "Patat",
+            "link": "https://youtu.be/SFKNZIHf-p8",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
