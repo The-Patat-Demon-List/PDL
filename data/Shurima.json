@@ -1,0 +1,28 @@
+{
+    "id": 113138918,
+    "name": "Shurima",
+    "author": "stcubing",
+    "creators": "",
+    "verifier": "stcubing",
+    "verification": "https://youtu.be/ceiEzf3srJ0?si=P4AHWNaAaWrl2xrH",
+    "percentToQualify": 72,
+    "enjoyment":10,
+    "difficulty":4,
+    "description": "Amazing entry extreme",
+    "tags":[
+        "2.2",
+        "long",
+        "learny",
+        "clicksync",
+        "timings",
+        "highcps"
+    ],
+    "records": [
+        {
+            "user": "Patat",
+            "link": "https://youtu.be/Q9StlgK9wGU",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
