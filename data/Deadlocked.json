@@ -124,6 +124,13 @@
             "percent": 100,
             "enjoyment":6,
             "hz": 240
+        },   
+        {
+            "user": "Afii",
+            "link": "https://youtu.be/dmslXMGzYCE",
+            "percent": 100,
+            "enjoyment":7,
+            "hz": 240
         }
     ]
 }
