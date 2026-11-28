@@ -1,0 +1,26 @@
+{
+    "id": 147199745,
+    "name": "Luminox Core",
+    "author": "Cerez",
+    "creators": [],
+    "verifier": "Cerez",
+    "verification": "https://youtu.be/MKHdDXwypwk",
+    "percentToQualify": "81",
+    "enjoyment":9,
+    "difficulty":0,
+    "description": "81",
+    "tags": [
+        "2.2",
+        "long",
+        "clicksync",
+        "learny"
+    ],
+    "records": [
+       {
+            "user": "Patat",
+            "link": "https://youtu.be/MKHdDXwypwk",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
